@@ -1,0 +1,2778 @@
+{
+    "players": [
+      {
+        "id": 1,
+        "name": "Virat Kohli",
+        "country": "India",
+        "dateOfBirth": "1988-11-05",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Virat_Kohli_2018.jpg/330px-Virat_Kohli_2018.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 113,
+              "innings": 191,
+              "runs": 8676,
+              "highestScore": 254,
+              "average": 49.29,
+              "centuries": 29,
+              "halfCenturies": 29,
+              "strikeRate": 55.8
+            },
+            "odi": {
+              "matches": 292,
+              "innings": 280,
+              "runs": 13848,
+              "highestScore": 183,
+              "average": 58.69,
+              "centuries": 47,
+              "halfCenturies": 65,
+              "strikeRate": 93.62
+            },
+            "t20i": {
+              "matches": 115,
+              "innings": 107,
+              "runs": 4008,
+              "highestScore": 122,
+              "average": 52.73,
+              "centuries": 1,
+              "halfCenturies": 37,
+              "strikeRate": 137.96
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 113,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "odi": {
+              "matches": 292,
+              "wickets": 4,
+              "bestBowling": "1/15",
+              "average": 166.25,
+              "economy": 6.22,
+              "strikeRate": 160.5
+            },
+            "t20i": {
+              "matches": 115,
+              "wickets": 4,
+              "bestBowling": "1/13",
+              "average": 56.00,
+              "economy": 8.00,
+              "strikeRate": 42.0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 8,
+          "odi": 1,
+          "t20i": 12
+        }
+      },
+      {
+        "id": 2,
+        "name": "Joe Root",
+        "country": "England",
+        "dateOfBirth": "1990-12-30",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Joe_Root_2019.jpg/330px-Joe_Root_2019.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm off break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 139,
+              "innings": 254,
+              "runs": 12253,
+              "highestScore": 254,
+              "average": 50.22,
+              "centuries": 32,
+              "halfCenturies": 61,
+              "strikeRate": 56.72
+            },
+            "odi": {
+              "matches": 168,
+              "innings": 162,
+              "runs": 6522,
+              "highestScore": 133,
+              "average": 50.17,
+              "centuries": 16,
+              "halfCenturies": 39,
+              "strikeRate": 87.12
+            },
+            "t20i": {
+              "matches": 32,
+              "innings": 30,
+              "runs": 893,
+              "highestScore": 90,
+              "average": 35.72,
+              "centuries": 0,
+              "halfCenturies": 5,
+              "strikeRate": 126.31
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 139,
+              "wickets": 55,
+              "bestBowling": "5/8",
+              "average": 46.36,
+              "economy": 3.58,
+              "strikeRate": 77.5
+            },
+            "odi": {
+              "matches": 168,
+              "wickets": 27,
+              "bestBowling": "3/52",
+              "average": 59.40,
+              "economy": 5.81,
+              "strikeRate": 61.4
+            },
+            "t20i": {
+              "matches": 32,
+              "wickets": 6,
+              "bestBowling": "2/9",
+              "average": 35.66,
+              "economy": 8.10,
+              "strikeRate": 26.3
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 2,
+          "odi": 15,
+          "t20i": 0
+        }
+      },
+      {
+        "id": 3,
+        "name": "Steve Smith",
+        "country": "Australia",
+        "dateOfBirth": "1989-06-02",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Steve_Smith_2022.jpg/330px-Steve_Smith_2022.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm leg break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 105,
+              "innings": 188,
+              "runs": 9347,
+              "highestScore": 239,
+              "average": 58.42,
+              "centuries": 32,
+              "halfCenturies": 39,
+              "strikeRate": 54.73
+            },
+            "odi": {
+              "matches": 142,
+              "innings": 131,
+              "runs": 4811,
+              "highestScore": 164,
+              "average": 43.34,
+              "centuries": 12,
+              "halfCenturies": 31,
+              "strikeRate": 87.57
+            },
+            "t20i": {
+              "matches": 63,
+              "innings": 56,
+              "runs": 1094,
+              "highestScore": 90,
+              "average": 25.79,
+              "centuries": 0,
+              "halfCenturies": 4,
+              "strikeRate": 125.60
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 105,
+              "wickets": 18,
+              "bestBowling": "3/18",
+              "average": 57.55,
+              "economy": 4.65,
+              "strikeRate": 74.2
+            },
+            "odi": {
+              "matches": 142,
+              "wickets": 27,
+              "bestBowling": "3/16",
+              "average": 34.48,
+              "economy": 5.10,
+              "strikeRate": 40.6
+            },
+            "t20i": {
+              "matches": 63,
+              "wickets": 17,
+              "bestBowling": "3/20",
+              "average": 22.05,
+              "economy": 7.66,
+              "strikeRate": 17.2
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 3,
+          "odi": 21,
+          "t20i": 64
+        }
+      },
+      {
+        "id": 4,
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "dateOfBirth": "1990-08-08",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Kane_Williamson_2018.jpg/330px-Kane_Williamson_2018.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm off break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 97,
+              "innings": 170,
+              "runs": 8451,
+              "highestScore": 251,
+              "average": 54.17,
+              "centuries": 29,
+              "halfCenturies": 33,
+              "strikeRate": 51.44
+            },
+            "odi": {
+              "matches": 161,
+              "innings": 157,
+              "runs": 6554,
+              "highestScore": 148,
+              "average": 47.83,
+              "centuries": 13,
+              "halfCenturies": 42,
+              "strikeRate": 81.21
+            },
+            "t20i": {
+              "matches": 86,
+              "innings": 81,
+              "runs": 2464,
+              "highestScore": 95,
+              "average": 33.29,
+              "centuries": 0,
+              "halfCenturies": 17,
+              "strikeRate": 123.38
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 97,
+              "wickets": 30,
+              "bestBowling": "4/44",
+              "average": 40.76,
+              "economy": 3.33,
+              "strikeRate": 73.5
+            },
+            "odi": {
+              "matches": 161,
+              "wickets": 37,
+              "bestBowling": "4/22",
+              "average": 36.56,
+              "economy": 5.24,
+              "strikeRate": 41.8
+            },
+            "t20i": {
+              "matches": 86,
+              "wickets": 8,
+              "bestBowling": "2/16",
+              "average": 30.87,
+              "economy": 7.19,
+              "strikeRate": 25.7
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 5,
+          "odi": 11,
+          "t20i": 15
+        }
+      },
+      {
+        "id": 5,
+        "name": "Jasprit Bumrah",
+        "country": "India",
+        "dateOfBirth": "1993-12-06",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Jasprit_Bumrah_2022.jpg/330px-Jasprit_Bumrah_2022.jpg",
+        "role": "Bowler",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm fast",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 35,
+              "innings": 47,
+              "runs": 325,
+              "highestScore": 34,
+              "average": 7.22,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 41.82
+            },
+            "odi": {
+              "matches": 82,
+              "innings": 33,
+              "runs": 56,
+              "highestScore": 16,
+              "average": 4.67,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 54.90
+            },
+            "t20i": {
+              "matches": 67,
+              "innings": 17,
+              "runs": 8,
+              "highestScore": 7,
+              "average": 2.67,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 50.00
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 35,
+              "wickets": 159,
+              "bestBowling": "6/27",
+              "average": 20.25,
+              "economy": 2.69,
+              "strikeRate": 45.1
+            },
+            "odi": {
+              "matches": 82,
+              "wickets": 149,
+              "bestBowling": "6/19",
+              "average": 23.35,
+              "economy": 4.63,
+              "strikeRate": 30.2
+            },
+            "t20i": {
+              "matches": 67,
+              "wickets": 96,
+              "bestBowling": "3/11",
+              "average": 19.35,
+              "economy": 6.55,
+              "strikeRate": 17.7
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 1,
+          "odi": 4,
+          "t20i": 1
+        }
+      },
+      {
+        "id": 6,
+        "name": "Pat Cummins",
+        "country": "Australia",
+        "dateOfBirth": "1993-05-08",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Pat_Cummins_2018_%28cropped%29.jpg/330px-Pat_Cummins_2018_%28cropped%29.jpg",
+        "role": "Bowler",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm fast",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 59,
+              "innings": 95,
+              "runs": 1428,
+              "highestScore": 63,
+              "average": 17.64,
+              "centuries": 0,
+              "halfCenturies": 2,
+              "strikeRate": 47.38
+            },
+            "odi": {
+              "matches": 85,
+              "innings": 48,
+              "runs": 379,
+              "highestScore": 36,
+              "average": 11.84,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 83.11
+            },
+            "t20i": {
+              "matches": 52,
+              "innings": 22,
+              "runs": 108,
+              "highestScore": 30,
+              "average": 10.80,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 123.26
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 59,
+              "wickets": 254,
+              "bestBowling": "6/23",
+              "average": 21.58,
+              "economy": 2.78,
+              "strikeRate": 46.2
+            },
+            "odi": {
+              "matches": 85,
+              "wickets": 141,
+              "bestBowling": "5/70",
+              "average": 28.88,
+              "economy": 4.95,
+              "strikeRate": 35.0
+            },
+            "t20i": {
+              "matches": 52,
+              "wickets": 59,
+              "bestBowling": "4/16",
+              "average": 22.64,
+              "economy": 7.20,
+              "strikeRate": 18.8
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 4,
+          "odi": 7,
+          "t20i": 11
+        }
+      },
+      {
+        "id": 7,
+        "name": "Ben Stokes",
+        "country": "England",
+        "dateOfBirth": "1991-06-04",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Ben_Stokes_2019.jpg/330px-Ben_Stokes_2019.jpg",
+        "role": "All-rounder",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Right-arm fast-medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 103,
+              "innings": 183,
+              "runs": 6652,
+              "highestScore": 258,
+              "average": 36.04,
+              "centuries": 13,
+              "halfCenturies": 31,
+              "strikeRate": 58.78
+            },
+            "odi": {
+              "matches": 118,
+              "innings": 108,
+              "runs": 3408,
+              "highestScore": 102,
+              "average": 40.09,
+              "centuries": 3,
+              "halfCenturies": 23,
+              "strikeRate": 96.93
+            },
+            "t20i": {
+              "matches": 43,
+              "innings": 36,
+              "runs": 613,
+              "highestScore": 52,
+              "average": 20.43,
+              "centuries": 0,
+              "halfCenturies": 2,
+              "strikeRate": 135.19
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 103,
+              "wickets": 203,
+              "bestBowling": "6/22",
+              "average": 32.36,
+              "economy": 3.25,
+              "strikeRate": 59.7
+            },
+            "odi": {
+              "matches": 118,
+              "wickets": 88,
+              "bestBowling": "5/61",
+              "average": 41.94,
+              "economy": 6.01,
+              "strikeRate": 41.8
+            },
+            "t20i": {
+              "matches": 43,
+              "wickets": 26,
+              "bestBowling": "3/26",
+              "average": 28.42,
+              "economy": 8.89,
+              "strikeRate": 19.2
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 11,
+          "odi": 28,
+          "t20i": 49
+        }
+      },
+      {
+        "id": 8,
+        "name": "Kagiso Rabada",
+        "country": "South Africa",
+        "dateOfBirth": "1995-05-25",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Kagiso_Rabada_2018.jpg/330px-Kagiso_Rabada_2018.jpg",
+        "role": "Bowler",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Right-arm fast",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 62,
+              "innings": 89,
+              "runs": 974,
+              "highestScore": 47,
+              "average": 13.16,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 47.24
+            },
+            "odi": {
+              "matches": 92,
+              "innings": 42,
+              "runs": 145,
+              "highestScore": 24,
+              "average": 6.04,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 61.70
+            },
+            "t20i": {
+              "matches": 55,
+              "innings": 13,
+              "runs": 34,
+              "highestScore": 13,
+              "average": 5.67,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 89.47
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 62,
+              "wickets": 278,
+              "bestBowling": "7/112",
+              "average": 22.28,
+              "economy": 3.34,
+              "strikeRate": 40.0
+            },
+            "odi": {
+              "matches": 92,
+              "wickets": 149,
+              "bestBowling": "6/16",
+              "average": 27.91,
+              "economy": 4.95,
+              "strikeRate": 33.8
+            },
+            "t20i": {
+              "matches": 55,
+              "wickets": 61,
+              "bestBowling": "3/20",
+              "average": 28.16,
+              "economy": 8.30,
+              "strikeRate": 20.3
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 6,
+          "odi": 8,
+          "t20i": 9
+        }
+      },
+      {
+        "id": 9,
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "dateOfBirth": "1994-10-15",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Babar_Azam_2022.jpg/330px-Babar_Azam_2022.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm off break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 52,
+              "innings": 95,
+              "runs": 3954,
+              "highestScore": 196,
+              "average": 45.98,
+              "centuries": 9,
+              "halfCenturies": 26,
+              "strikeRate": 54.53
+            },
+            "odi": {
+              "matches": 106,
+              "innings": 104,
+              "runs": 5410,
+              "highestScore": 158,
+              "average": 56.35,
+              "centuries": 19,
+              "halfCenturies": 28,
+              "strikeRate": 88.99
+            },
+            "t20i": {
+              "matches": 112,
+              "innings": 109,
+              "runs": 3853,
+              "highestScore": 122,
+              "average": 41.88,
+              "centuries": 3,
+              "halfCenturies": 33,
+              "strikeRate": 129.41
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 52,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "odi": {
+              "matches": 106,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 6.00,
+              "strikeRate": 0
+            },
+            "t20i": {
+              "matches": 112,
+              "wickets": 2,
+              "bestBowling": "1/12",
+              "average": 42.50,
+              "economy": 8.50,
+              "strikeRate": 30.0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 10,
+          "odi": 3,
+          "t20i": 4
+        }
+      },
+      {
+        "id": 10,
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "dateOfBirth": "1987-03-24",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Shakib_Al_Hasan_2018.jpg/330px-Shakib_Al_Hasan_2018.jpg",
+        "role": "All-rounder",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Slow left-arm orthodox",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 67,
+              "innings": 128,
+              "runs": 4431,
+              "highestScore": 217,
+              "average": 38.20,
+              "centuries": 7,
+              "halfCenturies": 31,
+              "strikeRate": 62.84
+            },
+            "odi": {
+              "matches": 243,
+              "innings": 227,
+              "runs": 7264,
+              "highestScore": 134,
+              "average": 37.63,
+              "centuries": 9,
+              "halfCenturies": 55,
+              "strikeRate": 82.94
+            },
+            "t20i": {
+              "matches": 117,
+              "innings": 108,
+              "runs": 2382,
+              "highestScore": 84,
+              "average": 23.59,
+              "centuries": 0,
+              "halfCenturies": 12,
+              "strikeRate": 121.95
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 67,
+              "wickets": 233,
+              "bestBowling": "7/32",
+              "average": 30.70,
+              "economy": 3.01,
+              "strikeRate": 61.2
+            },
+            "odi": {
+              "matches": 243,
+              "wickets": 314,
+              "bestBowling": "5/29",
+              "average": 29.62,
+              "economy": 4.44,
+              "strikeRate": 40.0
+            },
+            "t20i": {
+              "matches": 117,
+              "wickets": 140,
+              "bestBowling": "5/20",
+              "average": 19.82,
+              "economy": 6.62,
+              "strikeRate": 17.9
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 9,
+          "odi": 9,
+          "t20i": 5
+        }
+      },
+      {
+        "id": 11,
+        "name": "Rohit Sharma",
+        "country": "India",
+        "dateOfBirth": "1987-04-30",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Rohit_Sharma_2021.jpg/330px-Rohit_Sharma_2021.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm off break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 52,
+              "innings": 91,
+              "runs": 3677,
+              "highestScore": 212,
+              "average": 45.39,
+              "centuries": 10,
+              "halfCenturies": 16,
+              "strikeRate": 56.87
+            },
+            "odi": {
+              "matches": 256,
+              "innings": 251,
+              "runs": 10662,
+              "highestScore": 264,
+              "average": 49.13,
+              "centuries": 30,
+              "halfCenturies": 55,
+              "strikeRate": 92.01
+            },
+            "t20i": {
+              "matches": 151,
+              "innings": 147,
+              "runs": 3974,
+              "highestScore": 118,
+              "average": 32.31,
+              "centuries": 5,
+              "halfCenturies": 29,
+              "strikeRate": 140.13
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 52,
+              "wickets": 2,
+              "bestBowling": "1/26",
+              "average": 114.50,
+              "economy": 4.75,
+              "strikeRate": 144.0
+            },
+            "odi": {
+              "matches": 256,
+              "wickets": 8,
+              "bestBowling": "2/27",
+              "average": 72.25,
+              "economy": 5.37,
+              "strikeRate": 80.6
+            },
+            "t20i": {
+              "matches": 151,
+              "wickets": 1,
+              "bestBowling": "1/22",
+              "average": 51.00,
+              "economy": 10.20,
+              "strikeRate": 30.0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 13,
+          "odi": 10,
+          "t20i": 16
+        }
+      },
+      {
+        "id": 12,
+        "name": "Josh Hazlewood",
+        "country": "Australia",
+        "dateOfBirth": "1991-01-08",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Josh_Hazlewood_2016.jpg/330px-Josh_Hazlewood_2016.jpg",
+        "role": "Bowler",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Right-arm fast-medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 61,
+              "innings": 86,
+              "runs": 569,
+              "highestScore": 39,
+              "average": 10.53,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 38.45
+            },
+            "odi": {
+              "matches": 77,
+              "innings": 28,
+              "runs": 108,
+              "highestScore": 20,
+              "average": 7.20,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 60.33
+            },
+            "t20i": {
+              "matches": 42,
+              "innings": 8,
+              "runs": 7,
+              "highestScore": 4,
+              "average": 2.33,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 35.00
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 61,
+              "wickets": 245,
+              "bestBowling": "6/67",
+              "average": 25.37,
+              "economy": 2.81,
+              "strikeRate": 54.1
+            },
+            "odi": {
+              "matches": 77,
+              "wickets": 126,
+              "bestBowling": "6/52",
+              "average": 26.38,
+              "economy": 4.65,
+              "strikeRate": 34.0
+            },
+            "t20i": {
+              "matches": 42,
+              "wickets": 57,
+              "bestBowling": "4/12",
+              "average": 18.38,
+              "economy": 7.12,
+              "strikeRate": 15.5
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 7,
+          "odi": 12,
+          "t20i": 3
+        }
+      },
+      {
+        "id": 13,
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "dateOfBirth": "1998-09-20",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Rashid_Khan_2018.jpg/330px-Rashid_Khan_2018.jpg",
+        "role": "Bowler",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm leg break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 7,
+              "innings": 11,
+              "runs": 242,
+              "highestScore": 51,
+              "average": 22.00,
+              "centuries": 0,
+              "halfCenturies": 1,
+              "strikeRate": 64.71
+            },
+            "odi": {
+              "matches": 89,
+              "innings": 59,
+              "runs": 1095,
+              "highestScore": 60,
+              "average": 22.81,
+              "centuries": 0,
+              "halfCenturies": 1,
+              "strikeRate": 101.20
+            },
+            "t20i": {
+              "matches": 82,
+              "innings": 51,
+              "runs": 417,
+              "highestScore": 34,
+              "average": 10.17,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 138.05
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 7,
+              "wickets": 34,
+              "bestBowling": "5/82",
+              "average": 22.35,
+              "economy": 2.88,
+              "strikeRate": 46.5
+            },
+            "odi": {
+              "matches": 89,
+              "wickets": 175,
+              "bestBowling": "7/18",
+              "average": 19.43,
+              "economy": 4.16,
+              "strikeRate": 28.0
+            },
+            "t20i": {
+              "matches": 82,
+              "wickets": 130,
+              "bestBowling": "5/3",
+              "average": 14.08,
+              "economy": 6.15,
+              "strikeRate": 13.7
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 33,
+          "odi": 5,
+          "t20i": 2
+        }
+      },
+      {
+        "id": 14,
+        "name": "R Ashwin",
+        "country": "India",
+        "dateOfBirth": "1986-09-17",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Ravichandran_Ashwin_2021.jpg/330px-Ravichandran_Ashwin_2021.jpg",
+        "role": "All-rounder",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm off break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 96,
+              "innings": 142,
+              "runs": 3155,
+              "highestScore": 124,
+              "average": 26.73,
+              "centuries": 5,
+              "halfCenturies": 14,
+              "strikeRate": 52.38
+            },
+            "odi": {
+              "matches": 113,
+              "innings": 61,
+              "runs": 707,
+              "highestScore": 65,
+              "average": 16.44,
+              "centuries": 0,
+              "halfCenturies": 1,
+              "strikeRate": 86.22
+            },
+            "t20i": {
+              "matches": 65,
+              "innings": 23,
+              "runs": 161,
+              "highestScore": 31,
+              "average": 13.42,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 106.62
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 96,
+              "wickets": 489,
+              "bestBowling": "7/59",
+              "average": 23.56,
+              "economy": 2.79,
+              "strikeRate": 50.6
+            },
+            "odi": {
+              "matches": 113,
+              "wickets": 151,
+              "bestBowling": "4/25",
+              "average": 33.49,
+              "economy": 4.94,
+              "strikeRate": 40.6
+            },
+            "t20i": {
+              "matches": 65,
+              "wickets": 72,
+              "bestBowling": "4/8",
+              "average": 21.40,
+              "economy": 6.84,
+              "strikeRate": 18.8
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 2,
+          "odi": 43,
+          "t20i": 40
+        }
+      },
+      {
+        "id": 15,
+        "name": "Mitchell Starc",
+        "country": "Australia",
+        "dateOfBirth": "1990-01-30",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mitchell_Starc_2019.jpg/330px-Mitchell_Starc_2019.jpg",
+        "role": "Bowler",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Left-arm fast",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 82,
+              "innings": 119,
+              "runs": 2037,
+              "highestScore": 99,
+              "average": 21.66,
+              "centuries": 0,
+              "halfCenturies": 12,
+              "strikeRate": 62.12
+            },
+            "odi": {
+              "matches": 122,
+              "innings": 61,
+              "runs": 429,
+              "highestScore": 52,
+              "average": 12.26,
+              "centuries": 0,
+              "halfCenturies": 1,
+              "strikeRate": 78.43
+            },
+            "t20i": {
+              "matches": 59,
+              "innings": 22,
+              "runs": 62,
+              "highestScore": 16,
+              "average": 6.20,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 82.67
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 82,
+              "wickets": 342,
+              "bestBowling": "6/50",
+              "average": 26.87,
+              "economy": 3.42,
+              "strikeRate": 47.1
+            },
+            "odi": {
+              "matches": 122,
+              "wickets": 236,
+              "bestBowling": "6/28",
+              "average": 23.26,
+              "economy": 5.08,
+              "strikeRate": 27.4
+            },
+            "t20i": {
+              "matches": 59,
+              "wickets": 72,
+              "bestBowling": "4/20",
+              "average": 22.62,
+              "economy": 7.32,
+              "strikeRate": 18.5
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 15,
+          "odi": 2,
+          "t20i": 17
+        }
+      },
+      {
+        "id": 16,
+        "name": "Dimuth Karunaratne",
+        "country": "Sri Lanka",
+        "dateOfBirth": "1988-04-21",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Dimuth_Karunaratne_2023.jpg/330px-Dimuth_Karunaratne_2023.jpg",
+        "role": "Batsman",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Right-arm medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 87,
+              "innings": 165,
+              "runs": 6340,
+              "highestScore": 244,
+              "average": 40.38,
+              "centuries": 15,
+              "halfCenturies": 35,
+              "strikeRate": 49.65
+            },
+            "odi": {
+              "matches": 43,
+              "innings": 43,
+              "runs": 1123,
+              "highestScore": 107,
+              "average": 27.39,
+              "centuries": 1,
+              "halfCenturies": 8,
+              "strikeRate": 73.89
+            },
+            "t20i": {
+              "matches": 0,
+              "innings": 0,
+              "runs": 0,
+              "highestScore": 0,
+              "average": 0,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 0
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 87,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 4.75,
+              "strikeRate": 0
+            },
+            "odi": {
+              "matches": 43,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "t20i": {
+              "matches": 0,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 19,
+          "odi": 67,
+          "t20i": 0
+        }
+      },
+      {
+        "id": 17,
+        "name": "James Anderson",
+        "country": "England",
+        "dateOfBirth": "1982-07-30",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/James_Anderson_2019.jpg/330px-James_Anderson_2019.jpg",
+        "role": "Bowler",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Right-arm fast-medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 183,
+              "innings": 267,
+              "runs": 1354,
+              "highestScore": 81,
+              "average": 8.41,
+              "centuries": 0,
+              "halfCenturies": 1,
+              "strikeRate": 39.64
+            },
+            "odi": {
+              "matches": 194,
+              "innings": 84,
+              "runs": 273,
+              "highestScore": 28,
+              "average": 7.81,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 57.11
+            },
+            "t20i": {
+              "matches": 19,
+              "innings": 3,
+              "runs": 0,
+              "highestScore": 0,
+              "average": 0,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 0
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 183,
+              "wickets": 700,
+              "bestBowling": "7/42",
+              "average": 26.42,
+              "economy": 2.79,
+              "strikeRate": 56.8
+            },
+            "odi": {
+              "matches": 194,
+              "wickets": 269,
+              "bestBowling": "5/23",
+              "average": 29.22,
+              "economy": 4.92,
+              "strikeRate": 35.6
+            },
+            "t20i": {
+              "matches": 19,
+              "wickets": 18,
+              "bestBowling": "3/23",
+              "average": 30.66,
+              "economy": 7.84,
+              "strikeRate": 23.4
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 5,
+          "odi": 0,
+          "t20i": 0
+        }
+      },
+      {
+        "id": 18,
+        "name": "Quinton de Kock",
+        "country": "South Africa",
+        "dateOfBirth": "1992-12-17",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Quinton_de_Kock_2018.jpg/330px-Quinton_de_Kock_2018.jpg",
+        "role": "Wicketkeeper-Batsman",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Right-arm medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 56,
+              "innings": 91,
+              "runs": 3457,
+              "highestScore": 141,
+              "average": 37.58,
+              "centuries": 6,
+              "halfCenturies": 24,
+              "strikeRate": 71.14
+            },
+            "odi": {
+              "matches": 140,
+              "innings": 137,
+              "runs": 5966,
+              "highestScore": 178,
+              "average": 45.54,
+              "centuries": 17,
+              "halfCenturies": 31,
+              "strikeRate": 95.21
+            },
+            "t20i": {
+              "matches": 81,
+              "innings": 80,
+              "runs": 2150,
+              "highestScore": 100,
+              "average": 32.12,
+              "centuries": 1,
+              "halfCenturies": 14,
+              "strikeRate": 136.78
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 56,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "odi": {
+              "matches": 140,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "t20i": {
+              "matches": 81,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 12,
+          "odi": 6,
+          "t20i": 14
+        }
+      },
+      {
+        "id": 19,
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "dateOfBirth": "1989-07-22",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Trent_Boult_2018.jpg/330px-Trent_Boult_2018.jpg",
+        "role": "Bowler",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Left-arm fast-medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 78,
+              "innings": 112,
+              "runs": 786,
+              "highestScore": 52,
+              "average": 14.83,
+              "centuries": 0,
+              "halfCenturies": 1,
+              "strikeRate": 52.61
+            },
+            "odi": {
+              "matches": 99,
+              "innings": 41,
+              "runs": 179,
+              "highestScore": 21,
+              "average": 12.78,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 81.36
+            },
+            "t20i": {
+              "matches": 55,
+              "innings": 13,
+              "runs": 29,
+              "highestScore": 8,
+              "average": 4.14,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 65.91
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 78,
+              "wickets": 317,
+              "bestBowling": "6/30",
+              "average": 27.49,
+              "economy": 2.97,
+              "strikeRate": 55.5
+            },
+            "odi": {
+              "matches": 99,
+              "wickets": 187,
+              "bestBowling": "7/34",
+              "average": 24.97,
+              "economy": 5.04,
+              "strikeRate": 29.7
+            },
+            "t20i": {
+              "matches": 55,
+              "wickets": 74,
+              "bestBowling": "4/13",
+              "average": 22.93,
+              "economy": 8.15,
+              "strikeRate": 16.9
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 16,
+          "odi": 3,
+          "t20i": 10
+        }
+      },
+      {
+        "id": 20,
+        "name": "David Warner",
+        "country": "Australia",
+        "dateOfBirth": "1986-10-27",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/David_Warner_2018_%28cropped%29.jpg/330px-David_Warner_2018_%28cropped%29.jpg",
+        "role": "Batsman",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Right-arm leg break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 109,
+              "innings": 201,
+              "runs": 8786,
+              "highestScore": 335,
+              "average": 44.59,
+              "centuries": 25,
+              "halfCenturies": 34,
+              "strikeRate": 70.04
+            },
+            "odi": {
+              "matches": 161,
+              "innings": 159,
+              "runs": 6932,
+              "highestScore": 179,
+              "average": 45.60,
+              "centuries": 20,
+              "halfCenturies": 33,
+              "strikeRate": 97.26
+            },
+            "t20i": {
+              "matches": 99,
+              "innings": 99,
+              "runs": 2894,
+              "highestScore": 100,
+              "average": 32.52,
+              "centuries": 1,
+              "halfCenturies": 24,
+              "strikeRate": 141.24
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 109,
+              "wickets": 4,
+              "bestBowling": "2/45",
+              "average": 67.25,
+              "economy": 4.85,
+              "strikeRate": 83.0
+            },
+            "odi": {
+              "matches": 161,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 6.57,
+              "strikeRate": 0
+            },
+            "t20i": {
+              "matches": 99,
+              "wickets": 2,
+              "bestBowling": "1/4",
+              "average": 42.00,
+              "economy": 14.00,
+              "strikeRate": 18.0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 14,
+          "odi": 13,
+          "t20i": 21
+        }
+      },
+      {
+        "id": 21,
+        "name": "Mohammad Shami",
+        "country": "India",
+        "dateOfBirth": "1990-09-03",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Mohammed_Shami_2018.jpg/330px-Mohammed_Shami_2018.jpg",
+        "role": "Bowler",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm fast",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 64,
+              "innings": 98,
+              "runs": 681,
+              "highestScore": 56,
+              "average": 11.74,
+              "centuries": 0,
+              "halfCenturies": 1,
+              "strikeRate": 54.48
+            },
+            "odi": {
+              "matches": 94,
+              "innings": 35,
+              "runs": 139,
+              "highestScore": 25,
+              "average": 6.95,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 85.80
+            },
+            "t20i": {
+              "matches": 23,
+              "innings": 5,
+              "runs": 15,
+              "highestScore": 13,
+              "average": 5.00,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 115.38
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 64,
+              "wickets": 229,
+              "bestBowling": "5/28",
+              "average": 27.25,
+              "economy": 3.38,
+              "strikeRate": 48.2
+            },
+            "odi": {
+              "matches": 94,
+              "wickets": 173,
+              "bestBowling": "5/51",
+              "average": 25.55,
+              "economy": 5.64,
+              "strikeRate": 27.1
+            },
+            "t20i": {
+              "matches": 23,
+              "wickets": 24,
+              "bestBowling": "3/15",
+              "average": 29.58,
+              "economy": 9.54,
+              "strikeRate": 18.6
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 9,
+          "odi": 6,
+          "t20i": 32
+        }
+      },
+      {
+        "id": 22,
+        "name": "Ravindra Jadeja",
+        "country": "India",
+        "dateOfBirth": "1988-12-06",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ravindra_Jadeja_2018.jpg/330px-Ravindra_Jadeja_2018.jpg",
+        "role": "All-rounder",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Slow left-arm orthodox",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 67,
+              "innings": 104,
+              "runs": 2893,
+              "highestScore": 175,
+              "average": 36.16,
+              "centuries": 3,
+              "halfCenturies": 19,
+              "strikeRate": 60.93
+            },
+            "odi": {
+              "matches": 188,
+              "innings": 125,
+              "runs": 2602,
+              "highestScore": 87,
+              "average": 33.36,
+              "centuries": 0,
+              "halfCenturies": 13,
+              "strikeRate": 88.01
+            },
+            "t20i": {
+              "matches": 71,
+              "innings": 44,
+              "runs": 515,
+              "highestScore": 46,
+              "average": 22.39,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 127.47
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 67,
+              "wickets": 282,
+              "bestBowling": "7/48",
+              "average": 24.28,
+              "economy": 2.43,
+              "strikeRate": 59.9
+            },
+            "odi": {
+              "matches": 188,
+              "wickets": 194,
+              "bestBowling": "5/36",
+              "average": 37.36,
+              "economy": 4.89,
+              "strikeRate": 45.9
+            },
+            "t20i": {
+              "matches": 71,
+              "wickets": 51,
+              "bestBowling": "3/15",
+              "average": 28.49,
+              "economy": 7.16,
+              "strikeRate": 23.9
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 3,
+          "odi": 8,
+          "t20i": 25
+        }
+      },
+      {
+        "id": 23,
+        "name": "Jonny Bairstow",
+        "country": "England",
+        "dateOfBirth": "1989-09-26",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Jonny_Bairstow_2019.jpg/330px-Jonny_Bairstow_2019.jpg",
+        "role": "Wicketkeeper-Batsman",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 92,
+              "innings": 165,
+              "runs": 5482,
+              "highestScore": 167,
+              "average": 35.80,
+              "centuries": 12,
+              "halfCenturies": 26,
+              "strikeRate": 59.85
+            },
+            "odi": {
+              "matches": 102,
+              "innings": 93,
+              "runs": 3683,
+              "highestScore": 141,
+              "average": 46.04,
+              "centuries": 11,
+              "halfCenturies": 16,
+              "strikeRate": 103.99
+            },
+            "t20i": {
+              "matches": 70,
+              "innings": 60,
+              "runs": 1418,
+              "highestScore": 86,
+              "average": 28.36,
+              "centuries": 0,
+              "halfCenturies": 9,
+              "strikeRate": 137.80
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 92,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "odi": {
+              "matches": 102,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "t20i": {
+              "matches": 70,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 27,
+          "odi": 17,
+          "t20i": 19
+        }
+      },
+      {
+        "id": 24,
+        "name": "Marnus Labuschagne",
+        "country": "Australia",
+        "dateOfBirth": "1994-06-22",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Marnus_Labuschagne_2022.jpg/330px-Marnus_Labuschagne_2022.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm leg break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 47,
+              "innings": 82,
+              "runs": 3644,
+              "highestScore": 215,
+              "average": 47.32,
+              "centuries": 10,
+              "halfCenturies": 14,
+              "strikeRate": 54.64
+            },
+            "odi": {
+              "matches": 39,
+              "innings": 37,
+              "runs": 1459,
+              "highestScore": 106,
+              "average": 42.91,
+              "centuries": 4,
+              "halfCenturies": 7,
+              "strikeRate": 87.30
+            },
+            "t20i": {
+              "matches": 2,
+              "innings": 2,
+              "runs": 44,
+              "highestScore": 32,
+              "average": 22.00,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 107.32
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 47,
+              "wickets": 11,
+              "bestBowling": "3/45",
+              "average": 39.36,
+              "economy": 3.49,
+              "strikeRate": 67.5
+            },
+            "odi": {
+              "matches": 39,
+              "wickets": 3,
+              "bestBowling": "1/14",
+              "average": 71.33,
+              "economy": 5.94,
+              "strikeRate": 72.0
+            },
+            "t20i": {
+              "matches": 2,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 17,
+          "odi": 24,
+          "t20i": 0
+        }
+      },
+      {
+        "id": 25,
+        "name": "Shaheen Shah Afridi",
+        "country": "Pakistan",
+        "dateOfBirth": "2000-04-06",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Shaheen_Afridi_2022.jpg/330px-Shaheen_Afridi_2022.jpg",
+        "role": "Bowler",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Left-arm fast",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 25,
+              "innings": 41,
+              "runs": 245,
+              "highestScore": 30,
+              "average": 6.97,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 37.29
+            },
+            "odi": {
+              "matches": 44,
+              "innings": 18,
+              "runs": 63,
+              "highestScore": 19,
+              "average": 5.25,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 59.43
+            },
+            "t20i": {
+              "matches": 58,
+              "innings": 15,
+              "runs": 37,
+              "highestScore": 11,
+              "average": 5.28,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 77.08
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 25,
+              "wickets": 112,
+              "bestBowling": "6/51",
+              "average": 24.78,
+              "economy": 3.33,
+              "strikeRate": 44.6
+            },
+            "odi": {
+              "matches": 44,
+              "wickets": 95,
+              "bestBowling": "6/35",
+              "average": 23.92,
+              "economy": 5.32,
+              "strikeRate": 27.0
+            },
+            "t20i": {
+              "matches": 58,
+              "wickets": 87,
+              "bestBowling": "4/18",
+              "average": 22.58,
+              "economy": 7.71,
+              "strikeRate": 17.6
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 12,
+          "odi": 8,
+          "t20i": 6
+        }
+      },
+      {
+        "id": 27,
+        "name": "Jos Buttler",
+        "country": "England",
+        "dateOfBirth": "1990-09-08",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jos_Buttler_2019.jpg/330px-Jos_Buttler_2019.jpg",
+        "role": "Wicketkeeper-Batsman",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 57,
+              "innings": 102,
+              "runs": 2907,
+              "highestScore": 152,
+              "average": 31.94,
+              "centuries": 2,
+              "halfCenturies": 18,
+              "strikeRate": 64.22
+            },
+            "odi": {
+              "matches": 171,
+              "innings": 153,
+              "runs": 4697,
+              "highestScore": 162,
+              "average": 41.19,
+              "centuries": 11,
+              "halfCenturies": 25,
+              "strikeRate": 118.71
+            },
+            "t20i": {
+              "matches": 105,
+              "innings": 95,
+              "runs": 2799,
+              "highestScore": 101,
+              "average": 34.56,
+              "centuries": 1,
+              "halfCenturies": 20,
+              "strikeRate": 143.09
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 57,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "odi": {
+              "matches": 171,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "t20i": {
+              "matches": 105,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 36,
+          "odi": 11,
+          "t20i": 7
+        }
+      },
+      {
+        "id": 28,
+        "name": "Rishabh Pant",
+        "country": "India",
+        "dateOfBirth": "1997-10-04",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Rishabh_Pant_2022.jpg/330px-Rishabh_Pant_2022.jpg",
+        "role": "Wicketkeeper-Batsman",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Right-arm medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 33,
+              "innings": 56,
+              "runs": 2271,
+              "highestScore": 159,
+              "average": 43.67,
+              "centuries": 5,
+              "halfCenturies": 11,
+              "strikeRate": 73.63
+            },
+            "odi": {
+              "matches": 30,
+              "innings": 27,
+              "runs": 865,
+              "highestScore": 125,
+              "average": 34.60,
+              "centuries": 1,
+              "halfCenturies": 5,
+              "strikeRate": 106.65
+            },
+            "t20i": {
+              "matches": 66,
+              "innings": 54,
+              "runs": 987,
+              "highestScore": 65,
+              "average": 22.43,
+              "centuries": 0,
+              "halfCenturies": 3,
+              "strikeRate": 126.53
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 33,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "odi": {
+              "matches": 30,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "t20i": {
+              "matches": 66,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 16,
+          "odi": 28,
+          "t20i": 34
+        }
+      },
+      {
+        "id": 29,
+        "name": "Tabraiz Shamsi",
+        "country": "South Africa",
+        "dateOfBirth": "1990-02-18",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Tabraiz_Shamsi_2019.jpg/330px-Tabraiz_Shamsi_2019.jpg",
+        "role": "Bowler",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Left-arm unorthodox spin",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 5,
+              "innings": 8,
+              "runs": 28,
+              "highestScore": 18,
+              "average": 4.67,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 26.66
+            },
+            "odi": {
+              "matches": 42,
+              "innings": 13,
+              "runs": 57,
+              "highestScore": 11,
+              "average": 8.14,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 60.63
+            },
+            "t20i": {
+              "matches": 65,
+              "innings": 14,
+              "runs": 32,
+              "highestScore": 12,
+              "average": 4.57,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 68.08
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 5,
+              "wickets": 13,
+              "bestBowling": "5/72",
+              "average": 46.15,
+              "economy": 3.71,
+              "strikeRate": 74.5
+            },
+            "odi": {
+              "matches": 42,
+              "wickets": 69,
+              "bestBowling": "5/24",
+              "average": 28.14,
+              "economy": 5.51,
+              "strikeRate": 30.6
+            },
+            "t20i": {
+              "matches": 65,
+              "wickets": 95,
+              "bestBowling": "4/25",
+              "average": 21.94,
+              "economy": 7.16,
+              "strikeRate": 18.4
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 56,
+          "odi": 17,
+          "t20i": 6
+        }
+      },
+      {
+        "id": 30,
+        "name": "Glenn Maxwell",
+        "country": "Australia",
+        "dateOfBirth": "1988-10-14",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Glenn_Maxwell_2018.jpg/330px-Glenn_Maxwell_2018.jpg",
+        "role": "All-rounder",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm off break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 7,
+              "innings": 14,
+              "runs": 339,
+              "highestScore": 104,
+              "average": 26.07,
+              "centuries": 1,
+              "halfCenturies": 0,
+              "strikeRate": 65.06
+            },
+            "odi": {
+              "matches": 129,
+              "innings": 117,
+              "runs": 3490,
+              "highestScore": 108,
+              "average": 34.90,
+              "centuries": 3,
+              "halfCenturies": 23,
+              "strikeRate": 125.81
+            },
+            "t20i": {
+              "matches": 97,
+              "innings": 85,
+              "runs": 2131,
+              "highestScore": 145,
+              "average": 30.01,
+              "centuries": 3,
+              "halfCenturies": 10,
+              "strikeRate": 154.91
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 7,
+              "wickets": 8,
+              "bestBowling": "4/127",
+              "average": 42.62,
+              "economy": 3.95,
+              "strikeRate": 64.7
+            },
+            "odi": {
+              "matches": 129,
+              "wickets": 63,
+              "bestBowling": "4/46",
+              "average": 46.92,
+              "economy": 5.55,
+              "strikeRate": 50.6
+            },
+            "t20i": {
+              "matches": 97,
+              "wickets": 43,
+              "bestBowling": "3/10",
+              "average": 30.81,
+              "economy": 8.17,
+              "strikeRate": 22.6
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 0,
+          "odi": 22,
+          "t20i": 8
+        }
+      },
+      {
+        "id": 31,
+        "name": "Mujeeb Ur Rahman",
+        "country": "Afghanistan",
+        "dateOfBirth": "2001-03-28",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Mujeeb_Ur_Rahman_2018.jpg/330px-Mujeeb_Ur_Rahman_2018.jpg",
+        "role": "Bowler",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm off break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 4,
+              "innings": 8,
+              "runs": 56,
+              "highestScore": 15,
+              "average": 8.00,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 35.44
+            },
+            "odi": {
+              "matches": 56,
+              "innings": 19,
+              "runs": 71,
+              "highestScore": 14,
+              "average": 5.46,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 54.61
+            },
+            "t20i": {
+              "matches": 63,
+              "innings": 22,
+              "runs": 45,
+              "highestScore": 8,
+              "average": 4.09,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 69.23
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 4,
+              "wickets": 15,
+              "bestBowling": "5/82",
+              "average": 31.26,
+              "economy": 3.16,
+              "strikeRate": 59.2
+            },
+            "odi": {
+              "matches": 56,
+              "wickets": 92,
+              "bestBowling": "5/50",
+              "average": 22.62,
+              "economy": 4.18,
+              "strikeRate": 32.4
+            },
+            "t20i": {
+              "matches": 63,
+              "wickets": 86,
+              "bestBowling": "5/20",
+              "average": 17.90,
+              "economy": 6.05,
+              "strikeRate": 17.7
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 59,
+          "odi": 15,
+          "t20i": 13
+        }
+      },
+      {
+        "id": 32,
+        "name": "Stuart Broad",
+        "country": "England",
+        "dateOfBirth": "1986-06-24",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Stuart_Broad_2017.jpg/330px-Stuart_Broad_2017.jpg",
+        "role": "Bowler",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Right-arm fast-medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 167,
+              "innings": 255,
+              "runs": 3662,
+              "highestScore": 169,
+              "average": 17.52,
+              "centuries": 1,
+              "halfCenturies": 13,
+              "strikeRate": 63.81
+            },
+            "odi": {
+              "matches": 121,
+              "innings": 65,
+              "runs": 529,
+              "highestScore": 45,
+              "average": 12.59,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 77.23
+            },
+            "t20i": {
+              "matches": 56,
+              "innings": 24,
+              "runs": 65,
+              "highestScore": 10,
+              "average": 6.50,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 85.52
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 167,
+              "wickets": 604,
+              "bestBowling": "8/15",
+              "average": 27.68,
+              "economy": 2.94,
+              "strikeRate": 56.3
+            },
+            "odi": {
+              "matches": 121,
+              "wickets": 178,
+              "bestBowling": "5/23",
+              "average": 30.13,
+              "economy": 5.17,
+              "strikeRate": 34.9
+            },
+            "t20i": {
+              "matches": 56,
+              "wickets": 65,
+              "bestBowling": "4/24",
+              "average": 25.32,
+              "economy": 7.81,
+              "strikeRate": 19.4
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 13,
+          "odi": 0,
+          "t20i": 0
+        }
+      },
+      {
+        "id": 33,
+        "name": "Kusal Mendis",
+        "country": "Sri Lanka",
+        "dateOfBirth": "1995-02-02",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Kusal_Mendis_2018.jpg/330px-Kusal_Mendis_2018.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 54,
+              "innings": 99,
+              "runs": 3,
+              "highestScore": 196,
+              "average": 34.84,
+              "centuries": 7,
+              "halfCenturies": 15,
+              "strikeRate": 53.87
+            },
+            "odi": {
+              "matches": 105,
+              "innings": 103,
+              "runs": 3392,
+              "highestScore": 119,
+              "average": 34.26,
+              "centuries": 3,
+              "halfCenturies": 23,
+              "strikeRate": 87.19
+            },
+            "t20i": {
+              "matches": 67,
+              "innings": 65,
+              "runs": 1454,
+              "highestScore": 79,
+              "average": 23.45,
+              "centuries": 0,
+              "halfCenturies": 8,
+              "strikeRate": 128.90
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 54,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "odi": {
+              "matches": 105,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "t20i": {
+              "matches": 67,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 18,
+          "odi": 19,
+          "t20i": 39
+        }
+      },
+      {
+        "id": 34,
+        "name": "Usman Khawaja",
+        "country": "Australia",
+        "dateOfBirth": "1986-12-18",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Usman_Khawaja_2020.jpg/330px-Usman_Khawaja_2020.jpg",
+        "role": "Batsman",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Right-arm medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 61,
+              "innings": 109,
+              "runs": 4599,
+              "highestScore": 195,
+              "average": 45.99,
+              "centuries": 14,
+              "halfCenturies": 19,
+              "strikeRate": 52.12
+            },
+            "odi": {
+              "matches": 40,
+              "innings": 38,
+              "runs": 1554,
+              "highestScore": 104,
+              "average": 42.00,
+              "centuries": 2,
+              "halfCenturies": 12,
+              "strikeRate": 84.12
+            },
+            "t20i": {
+              "matches": 9,
+              "innings": 9,
+              "runs": 241,
+              "highestScore": 58,
+              "average": 26.78,
+              "centuries": 0,
+              "halfCenturies": 2,
+              "strikeRate": 126.84
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 61,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "odi": {
+              "matches": 40,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "t20i": {
+              "matches": 9,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 11,
+          "odi": 41,
+          "t20i": 0
+        }
+      },
+      {
+        "id": 35,
+        "name": "Wanindu Hasaranga",
+        "country": "Sri Lanka",
+        "dateOfBirth": "1997-07-29",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Wanindu_Hasaranga_2022.jpg/330px-Wanindu_Hasaranga_2022.jpg",
+        "role": "All-rounder",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm leg break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 5,
+              "innings": 10,
+              "runs": 169,
+              "highestScore": 47,
+              "average": 16.90,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 55.59
+            },
+            "odi": {
+              "matches": 54,
+              "innings": 44,
+              "runs": 935,
+              "highestScore": 80,
+              "average": 24.60,
+              "centuries": 0,
+              "halfCenturies": 5,
+              "strikeRate": 93.87
+            },
+            "t20i": {
+              "matches": 61,
+              "innings": 50,
+              "runs": 748,
+              "highestScore": 71,
+              "average": 17.81,
+              "centuries": 0,
+              "halfCenturies": 2,
+              "strikeRate": 123.84
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 5,
+              "wickets": 4,
+              "bestBowling": "2/38",
+              "average": 100.75,
+              "economy": 3.96,
+              "strikeRate": 152.5
+            },
+            "odi": {
+              "matches": 54,
+              "wickets": 95,
+              "bestBowling": "6/54",
+              "average": 28.04,
+              "economy": 5.04,
+              "strikeRate": 33.4
+            },
+            "t20i": {
+              "matches": 61,
+              "wickets": 98,
+              "bestBowling": "4/9",
+              "average": 14.90,
+              "economy": 6.66,
+              "strikeRate": 13.4
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 61,
+          "odi": 10,
+          "t20i": 3
+        }
+      },
+      {
+        "id": 36,
+        "name": "Devon Conway",
+        "country": "New Zealand",
+        "dateOfBirth": "1991-07-08",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Devon-Conway.jpg/330px-Devon-Conway.jpg",
+        "role": "Batsman",
+        "battingStyle": "Left-handed",
+        "bowlingStyle": "Right-arm medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 15,
+              "innings": 27,
+              "runs": 1138,
+              "highestScore": 200,
+              "average": 44.89,
+              "centuries": 3,
+              "halfCenturies": 5,
+              "strikeRate": 51.29
+            },
+            "odi": {
+              "matches": 28,
+              "innings": 28,
+              "runs": 1187,
+              "highestScore": 138,
+              "average": 47.48,
+              "centuries": 3,
+              "halfCenturies": 9,
+              "strikeRate": 89.87
+            },
+            "t20i": {
+              "matches": 39,
+              "innings": 38,
+              "runs": 1156,
+              "highestScore": 99,
+              "average": 36.12,
+              "centuries": 0,
+              "halfCenturies": 9,
+              "strikeRate": 133.64
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 15,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "odi": {
+              "matches": 28,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            },
+            "t20i": {
+              "matches": 39,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0,
+              "economy": 0,
+              "strikeRate": 0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 20,
+          "odi": 14,
+          "t20i": 17
+        }
+      },
+      {
+        "id": 37,
+        "name": "Adil Rashid",
+        "country": "England",
+        "dateOfBirth": "1988-02-17",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Adil_Rashid_2019.jpg/330px-Adil_Rashid_2019.jpg",
+        "role": "Bowler",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm leg break",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 19,
+              "innings": 30,
+              "runs": 540,
+              "highestScore": 61,
+              "average": 19.29,
+              "centuries": 0,
+              "halfCenturies": 1,
+              "strikeRate": 58.76
+            },
+            "odi": {
+              "matches": 128,
+              "innings": 60,
+              "runs": 513,
+              "highestScore": 69,
+              "average": 13.86,
+              "centuries": 0,
+              "halfCenturies": 1,
+              "strikeRate": 77.38
+            },
+            "t20i": {
+              "matches": 100,
+              "innings": 36,
+              "runs": 107,
+              "highestScore": 25,
+              "average": 8.23,
+              "centuries": 0,
+              "halfCenturies": 0,
+              "strikeRate": 80.45
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 19,
+              "wickets": 60,
+              "bestBowling": "5/64",
+              "average": 39.83,
+              "economy": 3.40,
+              "strikeRate": 70.2
+            },
+            "odi": {
+              "matches": 128,
+              "wickets": 184,
+              "bestBowling": "5/27",
+              "average": 30.56,
+              "economy": 5.55,
+              "strikeRate": 33.0
+            },
+            "t20i": {
+              "matches": 100,
+              "wickets": 114,
+              "bestBowling": "4/2",
+              "average": 24.56,
+              "economy": 7.40,
+              "strikeRate": 19.9
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 0,
+          "odi": 13,
+          "t20i": 19
+        }
+      },
+      {
+        "id": 38,
+        "name": "KL Rahul",
+        "country": "India",
+        "dateOfBirth": "1992-04-18",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/KL_Rahul.jpg/330px-KL_Rahul.jpg",
+        "role": "Wicketkeeper Batsman",
+        "battingStyle": "Right-handed",
+        "bowlingStyle": "Right-arm medium",
+        "stats": {
+          "batting": {
+            "test": {
+              "matches": 50,
+              "innings": 88,
+              "runs": 2808,
+              "highestScore": 199,
+              "average": 34.26,
+              "centuries": 8,
+              "halfCenturies": 13,
+              "strikeRate": 51.18
+            },
+            "odi": {
+              "matches": 78,
+              "innings": 74,
+              "runs": 2834,
+              "highestScore": 112,
+              "average": 47.23,
+              "centuries": 7,
+              "halfCenturies": 18,
+              "strikeRate": 88.54
+            },
+            "t20i": {
+              "matches": 72,
+              "innings": 68,
+              "runs": 2265,
+              "highestScore": 110,
+              "average": 37.75,
+              "centuries": 2,
+              "halfCenturies": 22,
+              "strikeRate": 139.12
+            }
+          },
+          "bowling": {
+            "test": {
+              "matches": 50,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0.0,
+              "economy": 0.0,
+              "strikeRate": 0.0
+            },
+            "odi": {
+              "matches": 78,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0.0,
+              "economy": 0.0,
+              "strikeRate": 0.0
+            },
+            "t20i": {
+              "matches": 72,
+              "wickets": 0,
+              "bestBowling": "0/0",
+              "average": 0.0,
+              "economy": 0.0,
+              "strikeRate": 0.0
+            }
+          }
+        },
+        "iccRanking": {
+          "test": 41,
+          "odi": 11,
+          "t20i": 27
+        }
+      }
+    ]}

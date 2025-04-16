@@ -6,6 +6,7 @@ import axios from "axios";
 import LiveMatches from './component/LiveMatches'
 import LeagueMatches from './component/LeagueMatches'
 import CricketTeams from './component/pages/CricketTeams'
+import PlayerStats from './component/pages/PlayerStats';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -44,7 +45,8 @@ function App() {
       <Nav/>
       {/* <LiveMatches/> */}
       {/* <LeagueMatches/> */}
-      <CricketTeams/>
+      {/* <CricketTeams/> */}
+      <PlayerStats/>
       </div>
 
     </div>
