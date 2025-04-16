@@ -13,7 +13,7 @@
   --background: #1f1f1f;      /* Dark Gray background for dark mode */
   --text: #ffffff;            /* White Text */
   --secondary: #7f8c8d;   
-  --hover:bg-green-700    /* Accent Gray */
+  --hover: #058222;   /* Accent Gray */
 }
 
 :root {
@@ -41,7 +41,7 @@
 .text-primary    { color: var(--primary); }
 .text-secondary  { color: var(--secondary); }
 .text-foreground { color: var(--text); }
-.hover-button{color: var(--hover); }
+.hover-button{background-color: var(--hover); }
 
 .text-heading-xl    { font-size: var(--text-heading-xl); font-weight: var(--font-extrabold); }
 .text-heading-lg    { font-size: var(--text-heading-lg); font-weight: var(--font-bold); }
