@@ -1,22 +1,10 @@
-import { object } from "prop-types";
-import React, { useState,useEffect } from "react";
-
+import React, { useState, useEffect } from "react";
 
 const PlayerStats = () => {
-  const [data, setData]= useState([])
-  const battingStats = {
-    test: [113, 113, 113, 113, 113, 113, 113, 113],
-    odi: [112, 112, 112, 112, 112, 112, 112, 112],
-    t20: [110, 110, 110, 110, 110, 110, 110, 110],
-  };
-  const bowlingStats = {
-    test: [113, 113, 113, 113, 113, 112],
-    odi: [112, 112, 112, 112, 112, 112],
-    t20: [110, 110, 110, 110, 110, 112],
-  };
+  const [data, setData] = useState([]);
 
   const battingHeadings = [
-    "",
+    "Format",
     "Match",
     "Innings",
     "Runs",
@@ -26,8 +14,9 @@ const PlayerStats = () => {
     "Half Centuries",
     "Strike Rate",
   ];
-  const bowlingHeading = [
-    "",
+
+  const bowlingHeadings = [
+    "Format",
     "Matches",
     "Wickets",
     "Best Bowling",
@@ -36,121 +25,149 @@ const PlayerStats = () => {
     "Strike Rate",
   ];
 
-
   useEffect(() => {
-      fetch("http://localhost:5001/playerstats")
-        .then(res => res.json())
-        .then(fetchedData => {
-          setData(fetchedData.players);
-        })
-        .catch(err => console.error(err));
-    }, []);
-    console.log(data)
+    fetch("http://localhost:5001/playerstats")
+      .then((res) => res.json())
+      .then((fetchedData) => {
+        setData(fetchedData.players);
+      })
+      .catch((err) => console.error(err));
+  }, []);
 
   return (
     <div className="text-white">
-      {Array.isArray(data) && data.map(({name,index,role,dateOfBirth,battingStyle,bowlingStyle,flagUrl,imageUrl})=>(
-      <div key={index} className="flex flex-col">
-        <div key={index} className="flex flex-col justify-center items-center">
-          <h1 key={index} className="text-heading-xl">{name}</h1>
-          <img key={index} className="h-20 w-30" src={flagUrl} alt="" />
-          <img src={imageUrl} alt="" className="h-50 w-50" />
-        </div>
-        {/* <div key={index} className="flex  justify-between w-[30vw] m-auto text-heading-sm">
-          <div key={index} className="">
-            <p key={index}>Role: {role}</p>
-            <p key={index}>Date Of Birth: {dateOfBirth}</p>
+      <div className="h-[5svh] w-[20vw] bg-green-500 flex justify-between items-center p-3 mt-5">
+        {data.map(({name,index})=>(
+        <div>
+          <p>{name}</p>
+          <button>click</button>
           </div>
-          <div key={index}>
-            <p key={index}>Batting: {battingStyle}</p>
-            <p key={index}>BoWlling{bowlingStyle}</p>
-          </div>
-        </div> */}
-      </div>))}
-      {/* <div className="playerstats">
-        <div className="text-heading-lg">
-          <h1>icc ranking</h1>
-        </div>
-        <div className="flex justify-between text-heading-sm">
-          
-        <div className="flex flex-col items-center">
-          <p>ODI</p>
-          <span className="h-30 w-30 bg-green-400 inline-block text-heading-xl text-center pt-5">1</span>
-          </div>
-          <div className="flex flex-col items-center">
-          <p>T20</p>
-          <span className="h-30 w-30 bg-green-400 inline-block text-heading-xl text-center pt-5">1</span>
-          </div>
-          <div className="flex flex-col items-center">
-          <p>Test</p>
-          <span className="h-30 w-30 bg-green-400 inline-block text-heading-xl text-center pt-5">1</span>
-          </div>
-        </div>
+        ))}
       </div>
-      <div className="batting-stats">
-        <div>
-          <h1>Batting stats</h1>
-        </div>
-        <div>
-          <table className="w-[100%] text-center bg-green-500 ">
-            <thead>
-              <tr>
-                {battingHeadings.map((heading, index) => (
-                  <th key={index} className="border border-gray- p-2">
-                    {heading}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {Object.entries(battingStats).map(([format, stats], i) => (
-                <tr>
-                  <td key={i} className="border border-white p-2">
-                    {format}
-                  </td>
-                  {stats.map((stat, index) => (
-                    <td key={index} className="border border-white p-2">
-                      {stat}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div className="bowling-stats">
-        <div>
-          <h1>Bowling stats</h1>
-        </div>
-        <div>
-          <table className="w-[100%] text-center bg-green-500 ">
-            <thead>
-              <tr>
-                {bowlingHeading.map((heading, index) => (
-                  <th key={index} className="border border-gray- p-2">
-                    {heading}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {Object.entries(bowlingStats).map(([format, stats], i) => (
-                <tr>
-                  <td key={i} className="border border-white p-2">
-                    {format}
-                  </td>
-                  {stats.map((stat, index) => (
-                    <td key={index} className="border border-white p-2">
-                      {stat}
-                    </td>
-                  ))}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div> */}
+      {Array.isArray(data) &&
+        data.map(
+          ({
+            id,
+            name,
+            role,
+            dateOfBirth,
+            battingStyle,
+            bowlingStyle,
+            flagUrl,
+            imageUrl,
+            iccRanking,
+            stats,
+          }) => {
+            const battingStats = stats.batting;
+            const bowlingStats = stats.bowling;
+
+            return (
+              <div key={id} className="border border-gray-700 my-6 p-4 rounded-lg">
+                <div className="flex items-center justify-between border-b-2 border-white py-5">
+                  <div>
+                  <img src={imageUrl} alt={name} className="h-40 w-40 object-cover rounded-full" />
+                  <div className="flex items-center gap-5">
+                  <h1 className="text-heading-xl">{name}</h1>
+                  <img src={flagUrl} alt="Country Flag" className="h-10 my-2" />
+                  </div>
+                  </div>
+                  <div className="flex justify-between  mt-4 text-heading-sm mr-20 text-primary gap-5">
+                    <div className="text-heading-lg">
+                      <p>Role: <span className="text-foreground text-heading-sm">{role}</span></p>
+                      <p>DOB: <span className="text-foreground text-heading-sm">{dateOfBirth}</span></p>
+                    </div>
+                    <div className="text-heading-lg">
+                      <p>Batting: <span className="text-foreground text-heading-sm">{battingStyle}</span></p>
+                      <p>Bowling: <span className="text-foreground text-heading-sm">{bowlingStyle}</span></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="playerstats mt-6 border-b-2 border-white py-5">
+                  <h1 className="text-heading-lg mb-2">ICC Ranking</h1>
+                  <div className="flex justify-between text-heading-sm">
+                    <div className="flex flex-col items-center">
+                      <p>ODI</p>
+                      <span className="h-30 w-30 bg-green-400 rounded-b-sm text-heading-xl text-center pt-4">
+                        {iccRanking.odi}
+                      </span>
+                    </div>
+                    <div className="flex flex-col items-center">
+                      <p>T20I</p>
+                      <span className="h-30 w-30 bg-green-400 rounded-sm text-heading-xl text-center pt-4">
+                        {iccRanking.t20i}
+                      </span>
+                    </div>
+                    <div className="flex flex-col items-center">
+                      <p>Test</p>
+                      <span className="h-30 w-30 bg-green-400 rounded-sm text-heading-xl text-center pt-4">
+                        {iccRanking.test}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="batting-stats mt-6 border-b-2 border-white py-5">
+                  <h1 className="text-heading-lg mb-2">Batting Stats</h1>
+                  <table className="w-full text-center bg-green-500">
+                    <thead>
+                      <tr>
+                        {battingHeadings.map((heading, index) => (
+                          <th key={index} className="border p-2 font-bold">
+                            {heading}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {["test", "odi", "t20i"].map((format, index) => (
+                        <tr key={index}>
+                          <td className="border p-2 font-bold">{format.toUpperCase()}</td>
+                          <td className="border p-2">{battingStats[format].matches}</td>
+                          <td className="border p-2">{battingStats[format].innings}</td>
+                          <td className="border p-2">{battingStats[format].runs}</td>
+                          <td className="border p-2">{battingStats[format].highestScore}</td>
+                          <td className="border p-2">{battingStats[format].average}</td>
+                          <td className="border p-2">{battingStats[format].centuries}</td>
+                          <td className="border p-2">{battingStats[format].halfCenturies}</td>
+                          <td className="border p-2">{battingStats[format].strikeRate}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+
+                <div className="bowling-stats mt-6">
+                  <h1 className="text-heading-lg mb-2">Bowling Stats</h1>
+                  <table className="w-full text-center bg-blue-500">
+                    <thead>
+                      <tr>
+                        {bowlingHeadings.map((heading, index) => (
+                          <th key={index} className="border p-2">
+                            {heading}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {["test", "odi", "t20i"].map((format, index) => (
+                        <tr key={index}>
+                          <td className="border p-2 font-bold">{format.toUpperCase()}</td>
+                          <td className="border p-2">{bowlingStats[format].matches}</td>
+                          <td className="border p-2">{bowlingStats[format].wickets}</td>
+                          <td className="border p-2">{bowlingStats[format].bestBowling}</td>
+                          <td className="border p-2">{bowlingStats[format].average}</td>
+                          <td className="border p-2">{bowlingStats[format].economy}</td>
+                          <td className="border p-2">{bowlingStats[format].strikeRate}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            );
+          }
+        )}
     </div>
   );
 };
