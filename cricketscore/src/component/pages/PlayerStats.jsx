@@ -47,6 +47,7 @@ const PlayerStats = () => {
           value={select}
           name="player"
           id=""
+          onTouchMove={handleselect}
           onChange={handleselect}
           className="h-[5svh] w-[20vw] bg-green-500 flex justify-between items-center p-3 mt-5 px-4 py-1 rounded-lg text-foreground border border-gray-400 focus:outline-none focus:ring-2 focus:ring-white"
         >
@@ -140,6 +141,7 @@ const PlayerStats = () => {
                       </div>
                     </div>
                   </div>
+                  
 
                   <div className="batting-stats mt-6 border-b-2 border-white py-5">
                     <h1 className="text-heading-lg mb-2">Batting Stats</h1>
@@ -203,6 +205,7 @@ const PlayerStats = () => {
             }
           ))
       }
+      
     </div>
   );
 };

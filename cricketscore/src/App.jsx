@@ -48,7 +48,6 @@ function App() {
       {/* <CricketTeams/> */}
       <PlayerStats/>
       </div>
-
     </div>
     </>
   )

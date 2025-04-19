@@ -6,16 +6,32 @@ const CricketTeams = () => {
   const [filter, setFilter] = useState([]);
   const [activeType, setActiveType] = useState("All");
 
-  useEffect(() => {
-    fetch("http://localhost:5000/teams")
-      .then(res => res.json())
-      .then(fetchedData => {
-        setData(fetchedData);
-        setFilter(fetchedData);
-      })
-      .catch(err => console.error(err));
-  }, []);
+  // useEffect(() => {
+  //   fetch("http://localhost:5000/teams")
+  //     .then(res => res.json())
+  //     .then(fetchedData => {
+  //       setData(fetchedData);
+  //       setFilter(fetchedData);
+  //     })
+  //     .catch(err => console.error(err));
+  // }, []);
 
+  useEffect(()=>{
+    fetch("https://cricbuzz-cricket.p.rapidapi.com/teams/v1/international", {
+      headers: {
+        "x-rapidapi-host": "cricbuzz-cricket.p.rapidapi.com",
+        "x-rapidapi-key": "47877a4ff7mshc0238ee0d1d788ep1fcd35jsn8f3e2d5caf82"
+      }})
+      .then((res)=>res.json())
+      .then((data)=>{
+        setData(data.list);
+        setFilter(data.list);
+        console.log(data)
+      })
+      .catch((err) => {
+        console.error("Error fetching data:", err);
+      });
+  },[])
   const filterTeams = (type) => {
     setActiveType(type);
     if (type === "All") {
@@ -44,12 +60,15 @@ const CricketTeams = () => {
       </div>
 
       <div className='mt-6'>
-        {filter.map(({ id, name, type, flagUrl }) => (
-          <div className='flex m-5' key={id}>
-            <img src={flagUrl} alt={`${name} flag`} className='h-20 w-30 object-cover' />
-            <p className='text-foreground text-heading-lg ml-10'>{name}</p>
-          </div>
-        ))}
+      {filter.map(({ teamId, teamName, imageId }) => {
+const imageUrl = `https://static.cricbuzz.com/a/img/v1/i1/c${imageId}/i.jpg`;
+return (
+    <div className="flex items-center gap-4 m-5" key={teamId}>
+      <img src={imageUrl} alt={teamName} className="h-20 w-30 object-cover" />
+      <p className="text-heading-lg text-foreground">{teamName}</p>
+    </div>
+  );
+})}
       </div>
     </div>
   );

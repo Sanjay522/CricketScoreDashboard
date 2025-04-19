@@ -54,7 +54,7 @@
 .text-xs            { font-size: var(--text-xs); font-weight: var(--font-light); }
 
 
-.table1,.th1,.tr1,.td1,.tr2,.td2,.tr3,.td3{
+/* .table1,.th1,.tr1,.td1,.tr2,.td2,.tr3,.td3{
   border-collapse: collapse;
   padding: 5px;
-}
+} */
