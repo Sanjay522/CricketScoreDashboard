@@ -1,7 +1,9 @@
 Cricket Score App
+
 A full-fledged cricket score app built with React, designed to provide real-time scores, player statistics, and team information. This app includes various pages like recent matches, player stats, and team details. It also integrates external APIs for live data and serves local JSON files hosted on Vercel.
 
 Features
+
 Real-time Live Scores: Display current match scores as they happen for ongoing cricket matches.
 
 Player Statistics: View comprehensive player stats, including batting, bowling, and fielding for Test, ODI, and T20 formats.
@@ -15,6 +17,7 @@ Responsive UI: Designed to work across various devices with a mobile-friendly in
 Interactive Filters: Allows users to filter players and teams by format, team, and ranking.
 
 Tech Stack
+
 Frontend: React, Tailwind CSS
 
 Backend: API endpoints served through Vercel (for hosting JSON files as API data)
@@ -36,15 +39,16 @@ Edit
 /public
     /assets          # Static files like images, icons, and fonts
 /src
-    /components      # Reusable UI components (Header, Footer, MatchCard, etc.)
-    /pages           # React components for each page (Home, PlayerStats, RecentMatches, etc.)
-    /utils           # Utility functions (data formatting, filtering, etc.)
-    /api             # API handling functions (fetching data from JSON files or APIs)
-    /styles          # Custom styles, utility classes, and theme settings (Tailwind config)
-    App.js           # Main app component that includes routing
-    index.js         # Entry point for the React app
-    routes.js        # Define routes for navigation (using React Router)
+    /components      
+    /pages           
+    /utils          
+    /api             
+    /styles        
+    App.js           
+    index.js        
+    routes.js        
 Setup and Installation
+
 1. Clone the repository
 bash
 Copy
