@@ -46,7 +46,7 @@ function App() {
       {/* <LiveMatches/> */}
       {/* <LeagueMatches/> */}
       {/* <CricketTeams/> */}
-      <PlayerStats/>
+      {/* <PlayerStats/> */}
       </div>
     </div>
     </>
