@@ -34,6 +34,7 @@ const PlayerStats = () => {
       })
       .catch((err) => console.error(err));
   }, []);
+  console.log(data)
 
   const handleselect = (e) => {
     setSelect(e.target.value);

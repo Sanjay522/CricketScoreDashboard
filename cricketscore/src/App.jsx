@@ -7,6 +7,8 @@ import LiveMatches from './component/LiveMatches'
 import LeagueMatches from './component/LeagueMatches'
 import CricketTeams from './component/pages/CricketTeams'
 import PlayerStats from './component/pages/PlayerStats';
+import Fixtures from './component/pages/Fixtures';
+import PointsTable from './component/pages/PointsTable';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -47,6 +49,9 @@ function App() {
       {/* <LeagueMatches/> */}
       {/* <CricketTeams/> */}
       {/* <PlayerStats/> */}
+      {/* <Fixtures/> */}
+      <PointsTable/>
+  
       </div>
     </div>
     </>

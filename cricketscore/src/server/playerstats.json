@@ -2849,4 +2849,1139 @@
           "t20i": 27
         }
       }
-    ]}
+    ],
+    "fixtures": [
+      {
+        "matchId": "CRI001",
+        "homeTeam": "India",
+        "awayTeam": "Australia",
+        "venue": "Melbourne Cricket Ground",
+        "date": "2025-05-15",
+        "time": "10:00 AM",
+        "format": "Test",
+        "tournament": "Border-Gavaskar Trophy",
+        "type": "International"
+      },
+      {
+        "matchId": "CRI002",
+        "homeTeam": "England",
+        "awayTeam": "South Africa",
+        "venue": "Lord's, London",
+        "date": "2025-05-22",
+        "time": "11:00 AM",
+        "format": "ODI",
+        "tournament": "Royal London Series",
+        "type": "International"
+      },
+      {
+        "matchId": "CRI003",
+        "homeTeam": "Pakistan",
+        "awayTeam": "New Zealand",
+        "venue": "National Stadium, Karachi",
+        "date": "2025-06-03",
+        "time": "2:00 PM",
+        "format": "T20I",
+        "tournament": "Friendship Cup",
+        "type": "International"
+      },
+      {
+        "matchId": "CRI004",
+        "homeTeam": "West Indies",
+        "awayTeam": "Sri Lanka",
+        "venue": "Kensington Oval, Barbados",
+        "date": "2025-06-12",
+        "time": "1:30 PM",
+        "format": "Test",
+        "tournament": "Frank Worrell Trophy",
+        "type": "International"
+      },
+      {
+        "matchId": "CRI005",
+        "homeTeam": "Bangladesh",
+        "awayTeam": "Zimbabwe",
+        "venue": "Shere Bangla Stadium, Dhaka",
+        "date": "2025-06-18",
+        "time": "9:30 AM",
+        "format": "ODI",
+        "tournament": "Rising Nations Cup",
+        "type": "International"
+      },
+      {
+        "matchId": "CRI006",
+        "homeTeam": "Australia",
+        "awayTeam": "England",
+        "venue": "Sydney Cricket Ground",
+        "date": "2025-06-25",
+        "time": "2:00 PM",
+        "format": "T20I",
+        "tournament": "The Ashes Series",
+        "type": "International"
+      },
+      {
+        "matchId": "CRI007",
+        "homeTeam": "South Africa",
+        "awayTeam": "India",
+        "venue": "Newlands, Cape Town",
+        "date": "2025-07-03",
+        "time": "10:00 AM",
+        "format": "ODI",
+        "tournament": "Freedom Series",
+        "type": "International"
+      },
+      {
+        "matchId": "CRI008",
+        "homeTeam": "New Zealand",
+        "awayTeam": "West Indies",
+        "venue": "Eden Park, Auckland",
+        "date": "2025-07-10",
+        "time": "3:00 PM",
+        "format": "Test",
+        "tournament": "Hadlee-Richards Trophy",
+        "type": "International"
+      },
+      {
+        "matchId": "CRI009",
+        "homeTeam": "Sri Lanka",
+        "awayTeam": "Pakistan",
+        "venue": "R. Premadasa Stadium, Colombo",
+        "date": "2025-07-18",
+        "time": "1:00 PM",
+        "format": "T20I",
+        "tournament": "Asian Challenge Cup",
+        "type": "International"
+      },
+      {
+        "matchId": "CRI010",
+        "homeTeam": "Afghanistan",
+        "awayTeam": "Ireland",
+        "venue": "Sharjah Cricket Stadium",
+        "date": "2025-07-24",
+        "time": "5:00 PM",
+        "format": "ODI",
+        "tournament": "Emerging Teams Trophy",
+        "type": "International"
+      }
+    ],
+    "teams": [
+    {
+      "name": "India",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+      "type": "International",
+      "shortName": "IND",
+      "primaryColor": "#0070FF",
+      "secondaryColor": "#FF9933"
+    },
+    {
+      "name": "Australia",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
+      "type": "International",
+      "shortName": "AUS",
+      "primaryColor": "#FFCD00",
+      "secondaryColor": "#00843D"
+    },
+    {
+      "name": "England",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg",
+      "type": "International",
+      "shortName": "ENG",
+      "primaryColor": "#002B5C",
+      "secondaryColor": "#CF0820"
+    },
+    {
+      "name": "New Zealand",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+      "type": "International",
+      "shortName": "NZ",
+      "primaryColor": "#000000",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Pakistan",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg",
+      "type": "International",
+      "shortName": "PAK",
+      "primaryColor": "#01411C",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "South Africa",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg",
+      "type": "International",
+      "shortName": "SA",
+      "primaryColor": "#007A4D",
+      "secondaryColor": "#FFB81C"
+    },
+    {
+      "name": "West Indies",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/c/c0/West_Indies_Cricket_Board_Flag.png",
+      "type": "International",
+      "shortName": "WI",
+      "primaryColor": "#7B0041",
+      "secondaryColor": "#FFCE00"
+    },
+    {
+      "name": "Sri Lanka",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg",
+      "type": "International",
+      "shortName": "SL",
+      "primaryColor": "#003F87",
+      "secondaryColor": "#FFD100"
+    },
+    {
+      "name": "Bangladesh",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg",
+      "type": "International",
+      "shortName": "BAN",
+      "primaryColor": "#006A4E",
+      "secondaryColor": "#F42A41"
+    },
+    {
+      "name": "Afghanistan",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
+      "type": "International",
+      "shortName": "AFG",
+      "primaryColor": "#000000",
+      "secondaryColor": "#FF0000"
+    },
+    {
+      "name": "Zimbabwe",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Flag_of_Zimbabwe.svg",
+      "type": "International",
+      "shortName": "ZIM",
+      "primaryColor": "#FF0000",
+      "secondaryColor": "#FFD200"
+    },
+    {
+      "name": "Ireland",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg",
+      "type": "International",
+      "shortName": "IRE",
+      "primaryColor": "#169B62",
+      "secondaryColor": "#FF883E"
+    },
+    {
+      "name": "Netherlands",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+      "type": "International",
+      "shortName": "NED",
+      "primaryColor": "#FF9B00",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Scotland",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Flag_of_Scotland.svg",
+      "type": "International",
+      "shortName": "SCO",
+      "primaryColor": "#005EB8",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "United Arab Emirates",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg",
+      "type": "International",
+      "shortName": "UAE",
+      "primaryColor": "#FF0000",
+      "secondaryColor": "#00732F"
+    },
+    {
+      "name": "Namibia",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Namibia.svg",
+      "type": "International",
+      "shortName": "NAM",
+      "primaryColor": "#003580",
+      "secondaryColor": "#FFCE00"
+    },
+    {
+      "name": "Oman",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Oman.svg",
+      "type": "International",
+      "shortName": "OMN",
+      "primaryColor": "#FF0000",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Mumbai Indians",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/c/cd/Mumbai_Indians_Logo.svg",
+      "type": "League",
+      "league": "IPL",
+      "shortName": "MI",
+      "primaryColor": "#004BA0",
+      "secondaryColor": "#D1AB3E"
+    },
+    {
+      "name": "Chennai Super Kings",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/2/2b/Chennai_Super_Kings_Logo.svg",
+      "type": "League",
+      "league": "IPL",
+      "shortName": "CSK",
+      "primaryColor": "#FFFF00",
+      "secondaryColor": "#0081E5"
+    },
+    {
+      "name": "Royal Challengers Bangalore",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/8/8a/Royal_Challengers_Bangalore_2020.svg",
+      "type": "League",
+      "league": "IPL",
+      "shortName": "RCB",
+      "primaryColor": "#EC1C24",
+      "secondaryColor": "#000000"
+    },
+    {
+      "name": "Kolkata Knight Riders",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/Kolkata_Knight_Riders_Logo.svg",
+      "type": "League",
+      "league": "IPL",
+      "shortName": "KKR",
+      "primaryColor": "#3A225D",
+      "secondaryColor": "#B3A123"
+    },
+    {
+      "name": "Delhi Capitals",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/f/f5/Delhi_Capitals_Logo.svg",
+      "type": "League",
+      "league": "IPL",
+      "shortName": "DC",
+      "primaryColor": "#0078BC",
+      "secondaryColor": "#EF1C25"
+    },
+    {
+      "name": "Rajasthan Royals",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/6/60/Rajasthan_Royals_Logo.svg",
+      "type": "League",
+      "league": "IPL",
+      "shortName": "RR",
+      "primaryColor": "#254AA5",
+      "secondaryColor": "#FF1744"
+    },
+    {
+      "name": "Sunrisers Hyderabad",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Sunrisers_Hyderabad.svg",
+      "type": "League",
+      "league": "IPL",
+      "shortName": "SRH",
+      "primaryColor": "#FF822A",
+      "secondaryColor": "#000000"
+    },
+    {
+      "name": "Punjab Kings",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/e/e7/Punjab_Kings_Logo.svg",
+      "type": "League",
+      "league": "IPL",
+      "shortName": "PBKS",
+      "primaryColor": "#ED1B24",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Gujarat Titans",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/0/09/Gujarat_Titans_Logo.svg",
+      "type": "League",
+      "league": "IPL",
+      "shortName": "GT",
+      "primaryColor": "#1B2133",
+      "secondaryColor": "#0B92D5"
+    },
+    {
+      "name": "Lucknow Super Giants",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/Lucknow_Super_Giants_Logo.svg",
+      "type": "League",
+      "league": "IPL",
+      "shortName": "LSG",
+      "primaryColor": "#A72056",
+      "secondaryColor": "#FFCC00"
+    },
+    {
+      "name": "Karachi Kings",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/7/7d/Karachi_Kings.png",
+      "type": "League",
+      "league": "PSL",
+      "shortName": "KK",
+      "primaryColor": "#0F2C5A",
+      "secondaryColor": "#ED1A37"
+    },
+    {
+      "name": "Lahore Qalandars",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Lahore_Qalandars.png",
+      "type": "League",
+      "league": "PSL",
+      "shortName": "LQ",
+      "primaryColor": "#D60C16",
+      "secondaryColor": "#188447"
+    },
+    {
+      "name": "Islamabad United",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/0/0a/Islamabad_United_Logo.png",
+      "type": "League",
+      "league": "PSL",
+      "shortName": "IU",
+      "primaryColor": "#E51937",
+      "secondaryColor": "#FFC72C"
+    },
+    {
+      "name": "Sydney Sixers",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/2/2b/Sydney_Sixers.png",
+      "type": "League",
+      "league": "BBL",
+      "shortName": "SIX",
+      "primaryColor": "#FF69B4",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Melbourne Stars",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/b/b3/Melbourne_Stars_logo.png",
+      "type": "League",
+      "league": "BBL",
+      "shortName": "STA",
+      "primaryColor": "#3CB44A",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Perth Scorchers",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Perth_Scorchers.png",
+      "type": "League",
+      "league": "BBL",
+      "shortName": "SCO",
+      "primaryColor": "#FF6B00",
+      "secondaryColor": "#000000"
+    },
+    {
+      "name": "Adelaide Strikers",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/a/a1/Adelaide_Strikers_logo.png",
+      "type": "League",
+      "league": "BBL",
+      "shortName": "STR",
+      "primaryColor": "#003F72",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Toronto Nationals",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/9/9d/Toronto_Nationals.png",
+      "type": "League",
+      "league": "GT20",
+      "shortName": "TN",
+      "primaryColor": "#E60000",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Oval Invincibles",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/1/12/Oval_Invincibles.svg",
+      "type": "League",
+      "league": "The Hundred",
+      "shortName": "OVL",
+      "primaryColor": "#12A95C",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Australia Women",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
+      "type": "Women",
+      "shortName": "AUSW",
+      "primaryColor": "#FFCD00",
+      "secondaryColor": "#00843D"
+    },
+    {
+      "name": "England Women",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg",
+      "type": "Women",
+      "shortName": "ENGW",
+      "primaryColor": "#002B5C",
+      "secondaryColor": "#CF0820"
+    },
+    {
+      "name": "India Women",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+      "type": "Women",
+      "shortName": "INDW",
+      "primaryColor": "#0070FF",
+      "secondaryColor": "#FF9933"
+    },
+    {
+      "name": "New Zealand Women",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+      "type": "Women",
+      "shortName": "NZW",
+      "primaryColor": "#000000",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "West Indies Women",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/c/c0/West_Indies_Cricket_Board_Flag.png",
+      "type": "Women",
+      "shortName": "WIW",
+      "primaryColor": "#7B0041",
+      "secondaryColor": "#FFCE00"
+    },
+    {
+      "name": "South Africa Women",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg",
+      "type": "Women",
+      "shortName": "SAW",
+      "primaryColor": "#007A4D",
+      "secondaryColor": "#FFB81C"
+    },
+    {
+      "name": "Mumbai",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mumbai_Cricket_Association.svg",
+      "type": "Domestic",
+      "country": "India",
+      "competition": "Ranji Trophy",
+      "shortName": "MUM",
+      "primaryColor": "#0066CC",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Karnataka",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/6/60/Karnataka_cricket_team_Logo.png",
+      "type": "Domestic",
+      "country": "India",
+      "competition": "Ranji Trophy",
+      "shortName": "KAR",
+      "primaryColor": "#FF0000",
+      "secondaryColor": "#FFFF00"
+    },
+    {
+      "name": "Victoria",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/a/a6/Victorian_cricket_team_logo.png",
+      "type": "Domestic",
+      "country": "Australia",
+      "competition": "Sheffield Shield",
+      "shortName": "VIC",
+      "primaryColor": "#004C97",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "New South Wales",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/b/b0/New_South_Wales_cricket_team_logo.png",
+      "type": "Domestic",
+      "country": "Australia",
+      "competition": "Sheffield Shield",
+      "shortName": "NSW",
+      "primaryColor": "#00A1DE",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Yorkshire",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/Yorkshire_CCC_logo.png",
+      "type": "Domestic",
+      "country": "England",
+      "competition": "County Championship",
+      "shortName": "YOR",
+      "primaryColor": "#0033A0",
+      "secondaryColor": "#FFFFFF"
+    },
+    {
+      "name": "Surrey",
+      "flagUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/Surrey_County_Cricket_Club.svg",
+      "type": "Domestic",
+      "country": "England",
+      "competition": "County Championship",
+      "shortName": "SUR",
+      "primaryColor": "#003366",
+      "secondaryColor": "#FFFFFF"
+    }
+  ],
+  "recentMatches": [
+    {
+      "matchId": "RCM001",
+      "homeTeam": "Australia",
+      "awayTeam": "England",
+      "venue": "Sydney Cricket Ground",
+      "date": "2025-04-15",
+      "format": "T20I",
+      "tournament": "Bilateral Series",
+      "result": {
+        "winner": "Australia",
+        "winMargin": "6 wickets",
+        "manOfTheMatch": "Steven Smith"
+      },
+      "scores": {
+        "England": "156/8 (20 overs)",
+        "Australia": "157/4 (18.3 overs)"
+      }
+    },
+    {
+      "matchId": "RCM002",
+      "homeTeam": "India",
+      "awayTeam": "New Zealand",
+      "venue": "M. Chinnaswamy Stadium, Bangalore",
+      "date": "2025-04-12",
+      "format": "ODI",
+      "tournament": "Tri-Series",
+      "result": {
+        "winner": "India",
+        "winMargin": "35 runs",
+        "manOfTheMatch": "Virat Kohli"
+      },
+      "scores": {
+        "India": "287/6 (50 overs)",
+        "New Zealand": "252/10 (47.2 overs)"
+      }
+    },
+    {
+      "matchId": "RCM003",
+      "homeTeam": "South Africa",
+      "awayTeam": "Pakistan",
+      "venue": "Wanderers Stadium, Johannesburg",
+      "date": "2025-04-10",
+      "format": "Test",
+      "tournament": "Freedom Trophy",
+      "result": {
+        "winner": "Draw",
+        "manOfTheMatch": "Babar Azam"
+      },
+      "scores": {
+        "Pakistan": "302/10 & 275/7d",
+        "South Africa": "324/10 & 213/8"
+      }
+    },
+    {
+      "matchId": "RCM004",
+      "homeTeam": "West Indies",
+      "awayTeam": "Bangladesh",
+      "venue": "Sabina Park, Kingston",
+      "date": "2025-04-08",
+      "format": "T20I",
+      "tournament": "Caribbean Tour",
+      "result": {
+        "winner": "West Indies",
+        "winMargin": "8 wickets",
+        "manOfTheMatch": "Nicholas Pooran"
+      },
+      "scores": {
+        "Bangladesh": "142/9 (20 overs)",
+        "West Indies": "143/2 (17.1 overs)"
+      }
+    },
+    {
+      "matchId": "RCM005",
+      "homeTeam": "Sri Lanka",
+      "awayTeam": "Afghanistan",
+      "venue": "Galle International Stadium",
+      "date": "2025-04-06",
+      "format": "ODI",
+      "tournament": "Asia Cup Qualifier",
+      "result": {
+        "winner": "Afghanistan",
+        "winMargin": "3 wickets",
+        "manOfTheMatch": "Rashid Khan"
+      },
+      "scores": {
+        "Sri Lanka": "245/8 (50 overs)",
+        "Afghanistan": "246/7 (49.2 overs)"
+      }
+    },
+    {
+      "matchId": "RCM006",
+      "homeTeam": "Zimbabwe",
+      "awayTeam": "Ireland",
+      "venue": "Queens Sports Club, Bulawayo",
+      "date": "2025-04-03",
+      "format": "T20I",
+      "tournament": "World Cup Qualifier",
+      "result": {
+        "winner": "Zimbabwe",
+        "winMargin": "25 runs",
+        "manOfTheMatch": "Sikandar Raza"
+      },
+      "scores": {
+        "Zimbabwe": "184/5 (20 overs)",
+        "Ireland": "159/8 (20 overs)"
+      }
+    },
+    {
+      "matchId": "RCM007",
+      "homeTeam": "England",
+      "awayTeam": "India",
+      "venue": "Lord's, London",
+      "date": "2025-04-01",
+      "format": "ODI",
+      "tournament": "Bilateral Series",
+      "result": {
+        "winner": "England",
+        "winMargin": "4 wickets",
+        "manOfTheMatch": "Jos Buttler"
+      },
+      "scores": {
+        "India": "278/7 (50 overs)",
+        "England": "279/6 (48.3 overs)"
+      }
+    },
+    {
+      "matchId": "RCM008",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Australia",
+      "venue": "Eden Park, Auckland",
+      "date": "2025-03-30",
+      "format": "Test",
+      "tournament": "Trans-Tasman Trophy",
+      "result": {
+        "winner": "New Zealand",
+        "winMargin": "7 wickets",
+        "manOfTheMatch": "Kane Williamson"
+      },
+      "scores": {
+        "Australia": "253/10 & 217/10",
+        "New Zealand": "342/10 & 129/3"
+      }
+    },
+    {
+      "matchId": "RCM009",
+      "homeTeam": "Pakistan",
+      "awayTeam": "West Indies",
+      "venue": "National Stadium, Karachi",
+      "date": "2025-03-28",
+      "format": "T20I",
+      "tournament": "Friendship Cup",
+      "result": {
+        "winner": "Pakistan",
+        "winMargin": "15 runs",
+        "manOfTheMatch": "Shadab Khan"
+      },
+      "scores": {
+        "Pakistan": "192/4 (20 overs)",
+        "West Indies": "177/8 (20 overs)"
+      }
+    },
+    {
+      "matchId": "RCM010",
+      "homeTeam": "Bangladesh",
+      "awayTeam": "Sri Lanka",
+      "venue": "Shere Bangla Stadium, Dhaka",
+      "date": "2025-03-25",
+      "format": "Test",
+      "tournament": "Asian Test Championship",
+      "result": {
+        "winner": "Sri Lanka",
+        "winMargin": "innings and 42 runs",
+        "manOfTheMatch": "Dimuth Karunaratne"
+      },
+      "scores": {
+        "Bangladesh": "172/10 & 145/10",
+        "Sri Lanka": "359/10"
+      }
+    }
+  ],
+  "matchDetails": {
+    "matchId": "MD001",
+    "homeTeam": "India",
+    "awayTeam": "Australia",
+    "venue": "M. Chinnaswamy Stadium, Bangalore",
+    "date": "2025-04-17",
+    "format": "ODI",
+    "tournament": "Border-Gavaskar Trophy",
+    "toss": {
+      "winner": "Australia",
+      "decision": "Bat"
+    },
+    "teams": {
+      "India": [
+        "Rohit Sharma (c)",
+        "Shubman Gill",
+        "Virat Kohli",
+        "Shreyas Iyer",
+        "KL Rahul",
+        "Rishabh Pant (wk)",
+        "Hardik Pandya",
+        "Ravindra Jadeja",
+        "Mohammed Shami",
+        "Jasprit Bumrah",
+        "Kuldeep Yadav"
+      ],
+      "Australia": [
+        "David Warner",
+        "Travis Head",
+        "Steven Smith",
+        "Marnus Labuschagne",
+        "Glenn Maxwell",
+        "Mitchell Marsh",
+        "Alex Carey (wk)",
+        "Pat Cummins (c)",
+        "Mitchell Starc",
+        "Nathan Lyon",
+        "Josh Hazlewood"
+      ]
+    },
+    "umpires": [
+      "Kumar Dharmasena",
+      "Richard Kettleborough",
+      "Michael Gough (TV)"
+    ],
+    "matchReferee": "Ranjan Madugalle",
+    "scores": {
+      "Australia": "275/8 (50 overs)",
+      "India": "276/5 (48.3 overs)"
+    },
+    "result": {
+      "winner": "India",
+      "winMargin": "5 wickets",
+      "manOfTheMatch": "Virat Kohli"
+    },
+    "statistics": {
+      "topScorers": {
+        "India": {"name": "Virat Kohli", "runs": 112, "balls": 107},
+        "Australia": {"name": "Steven Smith", "runs": 87, "balls": 95}
+      },
+      "topBowlers": {
+        "India": {"name": "Jasprit Bumrah", "wickets": 3, "economy": 4.8},
+        "Australia": {"name": "Mitchell Starc", "wickets": 2, "economy": 5.3}
+      },
+      "partnerships": [
+        {"team": "Australia", "wicket": "3rd", "runs": 88, "batsmen": ["Steven Smith", "Marnus Labuschagne"]},
+        {"team": "India", "wicket": "3rd", "runs": 125, "batsmen": ["Virat Kohli", "Shreyas Iyer"]}
+      ]
+    },
+    "commentary": [
+      {
+        "over": 1.1,
+        "bowler": "Jasprit Bumrah",
+        "batsman": "David Warner",
+        "runs": 0,
+        "commentary": "A good length delivery just outside off, Warner leaves it alone."
+      },
+      {
+        "over": 1.2,
+        "bowler": "Jasprit Bumrah",
+        "batsman": "David Warner",
+        "runs": 0,
+        "commentary": "Full and swinging away, Warner defends solidly."
+      },
+      {
+        "over": 1.3,
+        "bowler": "Jasprit Bumrah",
+        "batsman": "David Warner",
+        "runs": 4,
+        "commentary": "Short and wide, Warner cuts it powerfully through point for FOUR!"
+      },
+      {
+        "over": 1.4,
+        "bowler": "Jasprit Bumrah",
+        "batsman": "David Warner",
+        "runs": 0,
+        "commentary": "Good length and straight, Warner defends to mid-on."
+      },
+      {
+        "over": 1.5,
+        "bowler": "Jasprit Bumrah",
+        "batsman": "David Warner",
+        "runs": 0,
+        "wicket": {"type": "bowled", "batsman": "David Warner", "bowler": "Jasprit Bumrah"},
+        "commentary": "BOWLED! Bumrah with an absolute beauty! Pitches on middle and seams away to clip the top of off stump. Warner beaten all ends up!"
+      },
+      {
+        "over": 1.6,
+        "bowler": "Jasprit Bumrah",
+        "batsman": "Travis Head",
+        "runs": 0,
+        "commentary": "Full and straight, Head defends his first ball carefully."
+      },
+      {
+        "over": 30.1,
+        "bowler": "Kuldeep Yadav",
+        "batsman": "Steven Smith",
+        "runs": 1,
+        "commentary": "Flighted delivery on middle, Smith works it to long-on for a single."
+      },
+      {
+        "over": 30.2,
+        "bowler": "Kuldeep Yadav",
+        "batsman": "Glenn Maxwell",
+        "runs": 6,
+        "commentary": "MASSIVE SIX! Maxwell comes down the track and launches Kuldeep straight over long-on! The ball lands in the second tier!"
+      },
+      {
+        "over": 30.3,
+        "bowler": "Kuldeep Yadav",
+        "batsman": "Glenn Maxwell",
+        "runs": 4,
+        "commentary": "Swept hard and fine by Maxwell, races away to the boundary for FOUR."
+      },
+      {
+        "over": 30.4,
+        "bowler": "Kuldeep Yadav",
+        "batsman": "Glenn Maxwell",
+        "runs": 0,
+        "wicket": {"type": "stumped", "batsman": "Glenn Maxwell", "bowler": "Kuldeep Yadav", "fielder": "Rishabh Pant"},
+        "commentary": "STUMPED! Maxwell comes down the track again but misses a well-flighted googly. Pant whips off the bails in a flash!"
+      },
+      {
+        "over": 49.1,
+        "bowler": "Mitchell Starc",
+        "batsman": "Virat Kohli",
+        "runs": 2,
+        "commentary": "Full toss, Kohli drives it through the covers for a couple. Moves to 98."
+      },
+      {
+        "over": 49.2,
+        "bowler": "Mitchell Starc",
+        "batsman": "Virat Kohli",
+        "runs": 4,
+        "commentary": "FOUR! Short and wide, Kohli cuts it past point. That takes him to his century! The stadium erupts!"
+      },
+      {
+        "over": 49.3,
+        "bowler": "Mitchell Starc",
+        "batsman": "Virat Kohli",
+        "runs": 2,
+        "commentary": "Yorker length, dug out towards long-on for a couple."
+      },
+      {
+        "over": 49.4,
+        "bowler": "Mitchell Starc",
+        "batsman": "Virat Kohli",
+        "runs": 6,
+        "commentary": "SIX! What a shot! Kohli flicks a full delivery on leg stump over deep square leg for a maximum!"
+      },
+      {
+        "over": 49.5,
+        "bowler": "Mitchell Starc",
+        "batsman": "Virat Kohli",
+        "runs": 0,
+        "wicket": {"type": "caught", "batsman": "Virat Kohli", "bowler": "Mitchell Starc", "fielder": "Pat Cummins"},
+        "commentary": "OUT! Kohli skies one to mid-off where Cummins takes a good catch. A magnificent innings comes to an end at 112."
+      },
+      {
+        "over": 48.3,
+        "bowler": "Pat Cummins",
+        "batsman": "Hardik Pandya",
+        "runs": 4,
+        "commentary": "FOUR! Game over! Pandya smashes a full toss through the covers to win the match for India with 9 balls to spare!"
+      }
+    ],
+    "highlights": [
+      {
+        "type": "wicket",
+        "description": "David Warner bowled by Jasprit Bumrah",
+        "timestamp": "00:05:23",
+        "over": 1.5
+      },
+      {
+        "type": "boundary",
+        "description": "Steven Smith's elegant cover drive for four",
+        "timestamp": "00:42:17",
+        "over": 15.3
+      },
+      {
+        "type": "wicket",
+        "description": "Glenn Maxwell stumped by Rishabh Pant off Kuldeep Yadav",
+        "timestamp": "01:22:45",
+        "over": 30.4
+      },
+      {
+        "type": "milestone",
+        "description": "Virat Kohli reaches his 48th ODI century",
+        "timestamp": "02:35:12",
+        "over": 49.2
+      },
+      {
+        "type": "match_winning",
+        "description": "Hardik Pandya's boundary to win the match",
+        "timestamp": "02:46:38",
+        "over": 48.3
+      }
+    ]
+  },
+  "series": [
+    {
+      "seriesId": "SER001",
+      "name": "Border-Gavaskar Trophy 2025",
+      "teams": ["India", "Australia"],
+      "startDate": "2025-05-15",
+      "endDate": "2025-06-10",
+      "format": "Test",
+      "description": "A prestigious Test series between India and Australia."
+    },
+    {
+      "seriesId": "SER002",
+      "name": "Royal London Series 2025",
+      "teams": ["England", "South Africa"],
+      "startDate": "2025-06-20",
+      "endDate": "2025-07-05",
+      "format": "ODI",
+      "description": "A 3-match ODI series hosted by England."
+    },
+    {
+      "seriesId": "SER003",
+      "name": "Asian Challenge Cup",
+      "teams": ["Sri Lanka", "Pakistan", "Bangladesh"],
+      "startDate": "2025-07-10",
+      "endDate": "2025-07-25",
+      "format": "T20I",
+      "description": "A T20 tri-nation tournament in Colombo."
+    },
+    {
+      "seriesId": "SER004",
+      "name": "The Ashes 2025",
+      "teams": ["England", "Australia"],
+      "startDate": "2025-08-01",
+      "endDate": "2025-09-01",
+      "format": "Test",
+      "description": "Historic 5-match Test series between England and Australia."
+    },
+    {
+      "seriesId": "SER005",
+      "name": "Emerging Teams Trophy",
+      "teams": ["Afghanistan", "Ireland", "Nepal"],
+      "startDate": "2025-09-10",
+      "endDate": "2025-09-25",
+      "format": "ODI",
+      "description": "ODI tournament for rising cricket nations."
+    },
+    {
+      "seriesId": "SER006",
+      "name": "Caribbean Cup 2025",
+      "teams": ["West Indies", "USA", "Canada"],
+      "startDate": "2025-10-05",
+      "endDate": "2025-10-20",
+      "format": "T20I",
+      "description": "T20 series featuring teams from North America and the Caribbean."
+    },
+    {
+      "seriesId": "SER007",
+      "name": "Freedom Trophy 2025",
+      "teams": ["India", "South Africa"],
+      "startDate": "2025-11-01",
+      "endDate": "2025-11-20",
+      "format": "Test",
+      "description": "Test series celebrating cricket ties between India and South Africa."
+    },
+    {
+      "seriesId": "SER008",
+      "name": "Trans-Tasman Trophy",
+      "teams": ["Australia", "New Zealand"],
+      "startDate": "2025-12-01",
+      "endDate": "2025-12-18",
+      "format": "ODI",
+      "description": "A high-stakes ODI series between Oceania rivals."
+    },
+    {
+      "seriesId": "SER009",
+      "name": "Africa Cup T20",
+      "teams": ["South Africa", "Zimbabwe", "Namibia"],
+      "startDate": "2026-01-10",
+      "endDate": "2026-01-25",
+      "format": "T20I",
+      "description": "African T20I competition hosted in Johannesburg."
+    },
+    {
+      "seriesId": "SER010",
+      "name": "Asia Stars ODI Cup",
+      "teams": ["India", "Pakistan", "Sri Lanka", "Bangladesh"],
+      "startDate": "2026-02-05",
+      "endDate": "2026-02-25",
+      "format": "ODI",
+      "description": "Asia's top teams battle for regional supremacy in ODI format."
+    }
+  ],
+  "pointsTable": [
+    {
+      "teamId": "IND",
+      "teamName": "India",
+      "matchesPlayed": 5,
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "noResult": 0,
+      "netRunRate": 1.25,
+      "points": 8
+    },
+    {
+      "teamId": "AUS",
+      "teamName": "Australia",
+      "matchesPlayed": 5,
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "noResult": 0,
+      "netRunRate": 1.10,
+      "points": 8
+    },
+    {
+      "teamId": "ENG",
+      "teamName": "England",
+      "matchesPlayed": 5,
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "noResult": 0,
+      "netRunRate": 0.75,
+      "points": 6
+    },
+    {
+      "teamId": "NZ",
+      "teamName": "New Zealand",
+      "matchesPlayed": 5,
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "noResult": 0,
+      "netRunRate": 0.60,
+      "points": 6
+    },
+    {
+      "teamId": "SA",
+      "teamName": "South Africa",
+      "matchesPlayed": 5,
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "noResult": 0,
+      "netRunRate": -0.25,
+      "points": 4
+    },
+    {
+      "teamId": "SL",
+      "teamName": "Sri Lanka",
+      "matchesPlayed": 5,
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "noResult": 0,
+      "netRunRate": -0.30,
+      "points": 4
+    },
+    {
+      "teamId": "PAK",
+      "teamName": "Pakistan",
+      "matchesPlayed": 5,
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "noResult": 0,
+      "netRunRate": -0.50,
+      "points": 4
+    },
+    {
+      "teamId": "BAN",
+      "teamName": "Bangladesh",
+      "matchesPlayed": 5,
+      "wins": 1,
+      "losses": 4,
+      "ties": 0,
+      "noResult": 0,
+      "netRunRate": -0.90,
+      "points": 2
+    },
+    {
+      "teamId": "AFG",
+      "teamName": "Afghanistan",
+      "matchesPlayed": 5,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "noResult": 1,
+      "netRunRate": -1.10,
+      "points": 3
+    },
+    {
+      "teamId": "IRE",
+      "teamName": "Ireland",
+      "matchesPlayed": 5,
+      "wins": 0,
+      "losses": 5,
+      "ties": 0,
+      "noResult": 0,
+      "netRunRate": -1.50,
+      "points": 0
+    }
+  ]
+
+  }

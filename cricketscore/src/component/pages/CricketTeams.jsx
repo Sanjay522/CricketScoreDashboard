@@ -17,16 +17,12 @@ const CricketTeams = () => {
   // }, []);
 
   useEffect(()=>{
-    fetch("https://cricbuzz-cricket.p.rapidapi.com/teams/v1/international", {
-      headers: {
-        "x-rapidapi-host": "cricbuzz-cricket.p.rapidapi.com",
-        "x-rapidapi-key": "47877a4ff7mshc0238ee0d1d788ep1fcd35jsn8f3e2d5caf82"
-      }})
+    fetch("http://localhost:5001/playerstats")
       .then((res)=>res.json())
-      .then((data)=>{
-        setData(data.list);
-        setFilter(data.list);
-        console.log(data)
+      .then((fetchedData)=>{
+        setData(fetchedData.teams);
+        setFilter(fetchedData.teams);
+        console.log(fetchedData.teams)
       })
       .catch((err) => {
         console.error("Error fetching data:", err);
@@ -41,6 +37,8 @@ const CricketTeams = () => {
       setFilter(filtered);
     }
   };
+
+  // console.log(data)
 
   return (
     <div>
@@ -60,15 +58,12 @@ const CricketTeams = () => {
       </div>
 
       <div className='mt-6'>
-      {filter.map(({ teamId, teamName, imageId }) => {
-const imageUrl = `https://static.cricbuzz.com/a/img/v1/i1/c${imageId}/i.jpg`;
-return (
-    <div className="flex items-center gap-4 m-5" key={teamId}>
-      <img src={imageUrl} alt={teamName} className="h-20 w-30 object-cover" />
-      <p className="text-heading-lg text-foreground">{teamName}</p>
-    </div>
-  );
-})}
+      {filter.map(({ index, name, flagUrl }) => (
+  <div className="flex items-center gap-4 m-5" key={index}>
+    <img src={flagUrl} alt={name} className="h-20 w-30 object-cover" />
+    <p className="text-heading-lg text-foreground">{name}</p>
+  </div>
+))}
       </div>
     </div>
   );
