@@ -39,7 +39,7 @@ const {data} = useData()
         {teamType.map((type, index) => (
           <button
             onClick={() => filterTeams(type)}
-            className={`text-heading-md text-foreground bg-[#28a745] border-none hover:bg-[#27442e] active:bg-[#457951] rounded-2xl p-2 mt-5 cursor-pointer transition duration-300 
+            className={`text-heading-md text-foreground bg-[#28a745] border-none hover:bg-[#27442e] active:bg-[#457951] rounded-2xl p-2  cursor-pointer transition duration-300 ${index !==0?"ml-2":""} 
               ${activeType === type ? "bg-[#27442e]" : ""}`}
             key={index}
           >

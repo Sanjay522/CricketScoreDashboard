@@ -1,39 +1,23 @@
-import { useEffect, useState } from 'react'
-import './index.css'
-import Nav from './component/Nav'
-import axios from "axios";
+import React from 'react';
+import './index.css';
+import Nav from './component/Nav';
+import { BrowserRouter } from 'react-router-dom';
 import { DataProvider } from './Contex';
-
-import LiveMatches from './component/LiveMatches'
-import LeagueMatches from './component/LeagueMatches'
-import CricketTeams from './component/pages/CricketTeams'
-import PlayerStats from './component/pages/PlayerStats';
-import Fixtures from './component/pages/Fixtures';
-import PointsTable from './component/pages/PointsTable';
-import MatchDetail from './component/pages/MatchDetail';
-import Example from './component/pages/Example';
+import Routess from './component/Routes/Routess';
 
 function App() {
-
   return (
     <DataProvider>
-    <div className='bg-background'>
-      <div className='w-[80vw] m-auto' >
-      <Nav/>
-      {/* <LiveMatches/> */}
-      {/* <LeagueMatches/> */}
-      {/* <CricketTeams/> */}
-      {/* <PlayerStats/> */}
-      {/* <Fixtures/> */}
-      <PointsTable/>
-      {/* <MatchDetail/> */}
-      {/* <Example/> */}
-
-  
-      </div>
-    </div>
+      <BrowserRouter>
+        <div className="bg-background min-h-screen">
+          <div className="w-[80vw] m-auto">
+            <Nav />
+            <Routess/>
+          </div>
+        </div>
+      </BrowserRouter>
     </DataProvider>
-  )
+  );
 }
 
-export default App
+export default App;
