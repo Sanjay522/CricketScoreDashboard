@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { useData } from "../../Contex";
 
 const PlayerStats = () => {
-  const [data, setData] = useState([]);
+  const {data} = useData()
+  console.log(data.players)
+  const data1 = data?.players || []
+
+  // const [data, setData] = useState([]);
   const [select, setSelect] = useState("");
 
   const battingHeadings = [
@@ -26,15 +31,7 @@ const PlayerStats = () => {
     "Strike Rate",
   ];
 
-  useEffect(() => {
-    fetch("http://localhost:5001/playerstats")
-      .then((res) => res.json())
-      .then((fetchedData) => {
-        setData(fetchedData.players);
-      })
-      .catch((err) => console.error(err));
-  }, []);
-  console.log(data)
+
 
   const handleselect = (e) => {
     setSelect(e.target.value);
@@ -48,13 +45,13 @@ const PlayerStats = () => {
           value={select}
           name="player"
           id=""
-          onTouchMove={handleselect}
+          // onTouchMove={handleselect}
           onChange={handleselect}
           className="h-[5svh] w-[20vw] bg-green-500 flex justify-between items-center p-3 mt-5 px-4 py-1 rounded-lg text-foreground border border-gray-400 focus:outline-none focus:ring-2 focus:ring-white"
         >
           <option value="">-- Select a player --</option>
 
-          {data.map(({ name, index }) => (
+          {data1.map(({ name, index }) => (
             <option key={index} value={name}>
               {name}
             </option>
@@ -67,7 +64,7 @@ const PlayerStats = () => {
           Please select a player to view stats
         </p>
       ) : (
-        data
+        data1
           .filter((player) => player.name === select)
           .map(
             ({

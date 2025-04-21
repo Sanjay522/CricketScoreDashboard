@@ -1,29 +1,28 @@
 import React, { useEffect, useState } from "react";
+import { useData } from "../../Contex";
 
 const Fixtures = () => {
-  const [data, setData] = useState([]);
+const {data} = useData()
+  const data1 = data.fixtures || []; 
+  console.log(data1)
   const [activeType, setActiveType] = useState("All");
   const [filter, setFilter] = useState([]);
 
   const teamType = ["All", "International", "Domestic", "League", "Women"];
 
   useEffect(() => {
-    fetch("http://localhost:5001/playerstats")
-      .then((res) => res.json())
-      .then((fetchedData) => {
-        setData(fetchedData.fixtures);
-        setFilter(fetchedData.fixtures);
-        console.log(fetchedData.fixtures);
-      })
-      .catch((err) => console.error(err));
-  }, []);
+      if (data1.length > 0) {
+        filterTeams(activeType);
+      }
+    }, [data1, activeType]);
+
 
   const filterTeams = (type) => {
     setActiveType(type);
     if (type === "All") {
-      setFilter(data);
+      setFilter(data1);
     } else {
-      const filtered = data.filter((team) => team.type === type);
+      const filtered = data1.filter((team) => team.type === type);
       setFilter(filtered);
       if (type === "") {
         return <p>NO data</p>;

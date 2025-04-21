@@ -1,24 +1,18 @@
 import React, { useState,useEffect } from 'react'
+import { useData } from '../../Contex'
 
 const PointsTable = () => {
-const [data,setData]= useState([])
+  const {data} =useData()
+  const data1 = data?.pointsTable || []
+
+// const [data,setData]= useState([])
 const head =  ["Teams","matchesPlayed","wins","losses","noResult","netRunrate","points"]
 
-  useEffect(()=>{
-      fetch("http://localhost:5001/playerstats")
-        .then((res)=>res.json())
-        .then((fetchedData)=>{
-          setData(fetchedData.pointsTable);
-          console.log(fetchedData.pointsTable)
-        })
-        .catch((err) => {
-          console.error("Error fetching data:", err);
-        });
-    },[])
+ 
   return (
     <div>
       <h1 className='text-heading-xl text-primary'>Points Table</h1>
-        <table className='w-[100%] text-white border border-white m-10 text-heading-md'>
+        <table className='w-[100%] text-white border border-white my-10 text-heading-md'>
           <thead>
           <tr>
           {head.map((heads)=>(
@@ -28,7 +22,7 @@ const head =  ["Teams","matchesPlayed","wins","losses","noResult","netRunrate","
            </tr>
           </thead>
           <tbody>
-            {data.map(({index,losses,matchesPlayed,netRunRate,noResult,points,teamName,wins})=>(
+            {data1.map(({index,losses,matchesPlayed,netRunRate,noResult,points,teamName,wins})=>(
               <tr className='text-center bg-secondary border border-white'>
                 <td className='p-3 border '>{teamName}</td>
                 <td className='border'>{matchesPlayed}</td>

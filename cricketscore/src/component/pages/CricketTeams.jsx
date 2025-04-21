@@ -1,39 +1,27 @@
 import React, { useState, useEffect } from 'react';
+import { useData } from '../../Contex';
 
 const CricketTeams = () => {
+  const {data} = useData()
+  const data1 = data.teams || []; 
+  console.log(data1)
+
   const teamType = ["All", "International", "Domestic", "League", "Women"];
-  const [data, setData] = useState([]);
   const [filter, setFilter] = useState([]);
   const [activeType, setActiveType] = useState("All");
 
-  // useEffect(() => {
-  //   fetch("http://localhost:5000/teams")
-  //     .then(res => res.json())
-  //     .then(fetchedData => {
-  //       setData(fetchedData);
-  //       setFilter(fetchedData);
-  //     })
-  //     .catch(err => console.error(err));
-  // }, []);
-
-  useEffect(()=>{
-    fetch("http://localhost:5001/playerstats")
-      .then((res)=>res.json())
-      .then((fetchedData)=>{
-        setData(fetchedData.teams);
-        setFilter(fetchedData.teams);
-        console.log(fetchedData.teams)
-      })
-      .catch((err) => {
-        console.error("Error fetching data:", err);
-      });
-  },[])
+  useEffect(() => {
+    if (data1.length > 0) {
+      filterTeams(activeType);
+    }
+  }, [data1, activeType]);
+ 
   const filterTeams = (type) => {
     setActiveType(type);
     if (type === "All") {
-      setFilter(data);
+      setFilter(data1);
     } else {
-      const filtered = data.filter(team => team.type === type);
+      const filtered = data1.filter(team => team.type === type);
       setFilter(filtered);
     }
   };

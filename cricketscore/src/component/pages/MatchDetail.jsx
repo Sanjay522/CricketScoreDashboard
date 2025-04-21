@@ -1,8 +1,13 @@
 import React from 'react'
+import Info from '../Matchdetail/Info'
 
 const MatchDetail = () => {
   return (
-    <div>MatchDetail</div>
+    <div>sanjay
+      <h1>  
+          <Info/>
+      </h1>
+    </div>
   )
 }
 
