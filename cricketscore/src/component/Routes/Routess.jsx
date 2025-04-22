@@ -7,6 +7,10 @@ import PlayerStats from "../pages/PlayerStats";
 import Fixtures from "../pages/Fixtures";
 import PointsTable from "../pages/PointsTable";
 import MatchDetail from "../pages/MatchDetail";
+import Info from "../Matchdetail/Info";
+import Live from "../Matchdetail/Live";
+import ScoreCard from "../Matchdetail/ScoreCard";
+import Squads from "../Matchdetail/Squads";
 
 const Routess = () => {
   const routes = [
@@ -29,7 +33,10 @@ const Routess = () => {
       path: "/match/:id", 
       element: <MatchDetail />,
     },
+  
   ];
+
+
 
   return useRoutes(routes);
 };

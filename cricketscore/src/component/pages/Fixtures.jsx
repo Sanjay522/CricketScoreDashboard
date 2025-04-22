@@ -64,8 +64,8 @@ const {data} = useData()
           key={index}
           className="border border-green-500 rounded-2xl mt-10 p-5"
         >
-          <h1 className="bg-primary text-heading-md pl-10">{date}</h1>
-          <div className="bg-secondary text-black p-5 pl-10 grid grid-cols-3 gap-10">
+          <h1 className=" bg-primary text-heading-md pl-10">{date}</h1>
+          <div className="bg-white text-black p-5 pl-10 grid grid-cols-3 gap-10">
             <div>
               <p className="text-heading-md">{tournament}</p>
             </div>
