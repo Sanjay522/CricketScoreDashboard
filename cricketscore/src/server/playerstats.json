@@ -3560,225 +3560,449 @@
       }
     }
   ],
-  "matchDetails": {
-    "matchId": "MD001",
-    "homeTeam": "India",
-    "awayTeam": "Australia",
-    "venue": "M. Chinnaswamy Stadium, Bangalore",
-    "date": "2025-04-17",
-    "format": "ODI",
-    "tournament": "Border-Gavaskar Trophy",
-    "toss": {
-      "winner": "Australia",
-      "decision": "Bat"
-    },
-    "teams": {
-      "India": [
-        "Rohit Sharma (c)",
-        "Shubman Gill",
-        "Virat Kohli",
-        "Shreyas Iyer",
-        "KL Rahul",
-        "Rishabh Pant (wk)",
-        "Hardik Pandya",
-        "Ravindra Jadeja",
-        "Mohammed Shami",
-        "Jasprit Bumrah",
-        "Kuldeep Yadav"
-      ],
-      "Australia": [
-        "David Warner",
-        "Travis Head",
-        "Steven Smith",
-        "Marnus Labuschagne",
-        "Glenn Maxwell",
-        "Mitchell Marsh",
-        "Alex Carey (wk)",
-        "Pat Cummins (c)",
-        "Mitchell Starc",
-        "Nathan Lyon",
-        "Josh Hazlewood"
-      ]
-    },
-    "umpires": [
-      "Kumar Dharmasena",
-      "Richard Kettleborough",
-      "Michael Gough (TV)"
-    ],
-    "matchReferee": "Ranjan Madugalle",
-    "scores": {
-      "Australia": "275/8 (50 overs)",
-      "India": "276/5 (48.3 overs)"
-    },
-    "result": {
-      "winner": "India",
-      "winMargin": "5 wickets",
-      "manOfTheMatch": "Virat Kohli"
-    },
-    "statistics": {
-      "topScorers": {
-        "India": {"name": "Virat Kohli", "runs": 112, "balls": 107},
-        "Australia": {"name": "Steven Smith", "runs": 87, "balls": 95}
-      },
-      "topBowlers": {
-        "India": {"name": "Jasprit Bumrah", "wickets": 3, "economy": 4.8},
-        "Australia": {"name": "Mitchell Starc", "wickets": 2, "economy": 5.3}
-      },
-      "partnerships": [
-        {"team": "Australia", "wicket": "3rd", "runs": 88, "batsmen": ["Steven Smith", "Marnus Labuschagne"]},
-        {"team": "India", "wicket": "3rd", "runs": 125, "batsmen": ["Virat Kohli", "Shreyas Iyer"]}
-      ]
-    },
-    "commentary": [
-      {
-        "over": 1.1,
-        "bowler": "Jasprit Bumrah",
-        "batsman": "David Warner",
-        "runs": 0,
-        "commentary": "A good length delivery just outside off, Warner leaves it alone."
-      },
-      {
-        "over": 1.2,
-        "bowler": "Jasprit Bumrah",
-        "batsman": "David Warner",
-        "runs": 0,
-        "commentary": "Full and swinging away, Warner defends solidly."
-      },
-      {
-        "over": 1.3,
-        "bowler": "Jasprit Bumrah",
-        "batsman": "David Warner",
-        "runs": 4,
-        "commentary": "Short and wide, Warner cuts it powerfully through point for FOUR!"
-      },
-      {
-        "over": 1.4,
-        "bowler": "Jasprit Bumrah",
-        "batsman": "David Warner",
-        "runs": 0,
-        "commentary": "Good length and straight, Warner defends to mid-on."
-      },
-      {
-        "over": 1.5,
-        "bowler": "Jasprit Bumrah",
-        "batsman": "David Warner",
-        "runs": 0,
-        "wicket": {"type": "bowled", "batsman": "David Warner", "bowler": "Jasprit Bumrah"},
-        "commentary": "BOWLED! Bumrah with an absolute beauty! Pitches on middle and seams away to clip the top of off stump. Warner beaten all ends up!"
-      },
-      {
-        "over": 1.6,
-        "bowler": "Jasprit Bumrah",
-        "batsman": "Travis Head",
-        "runs": 0,
-        "commentary": "Full and straight, Head defends his first ball carefully."
-      },
-      {
-        "over": 30.1,
-        "bowler": "Kuldeep Yadav",
-        "batsman": "Steven Smith",
-        "runs": 1,
-        "commentary": "Flighted delivery on middle, Smith works it to long-on for a single."
-      },
-      {
-        "over": 30.2,
-        "bowler": "Kuldeep Yadav",
-        "batsman": "Glenn Maxwell",
-        "runs": 6,
-        "commentary": "MASSIVE SIX! Maxwell comes down the track and launches Kuldeep straight over long-on! The ball lands in the second tier!"
-      },
-      {
-        "over": 30.3,
-        "bowler": "Kuldeep Yadav",
-        "batsman": "Glenn Maxwell",
-        "runs": 4,
-        "commentary": "Swept hard and fine by Maxwell, races away to the boundary for FOUR."
-      },
-      {
-        "over": 30.4,
-        "bowler": "Kuldeep Yadav",
-        "batsman": "Glenn Maxwell",
-        "runs": 0,
-        "wicket": {"type": "stumped", "batsman": "Glenn Maxwell", "bowler": "Kuldeep Yadav", "fielder": "Rishabh Pant"},
-        "commentary": "STUMPED! Maxwell comes down the track again but misses a well-flighted googly. Pant whips off the bails in a flash!"
-      },
-      {
-        "over": 49.1,
-        "bowler": "Mitchell Starc",
-        "batsman": "Virat Kohli",
-        "runs": 2,
-        "commentary": "Full toss, Kohli drives it through the covers for a couple. Moves to 98."
-      },
-      {
-        "over": 49.2,
-        "bowler": "Mitchell Starc",
-        "batsman": "Virat Kohli",
-        "runs": 4,
-        "commentary": "FOUR! Short and wide, Kohli cuts it past point. That takes him to his century! The stadium erupts!"
-      },
-      {
-        "over": 49.3,
-        "bowler": "Mitchell Starc",
-        "batsman": "Virat Kohli",
-        "runs": 2,
-        "commentary": "Yorker length, dug out towards long-on for a couple."
-      },
-      {
-        "over": 49.4,
-        "bowler": "Mitchell Starc",
-        "batsman": "Virat Kohli",
-        "runs": 6,
-        "commentary": "SIX! What a shot! Kohli flicks a full delivery on leg stump over deep square leg for a maximum!"
-      },
-      {
-        "over": 49.5,
-        "bowler": "Mitchell Starc",
-        "batsman": "Virat Kohli",
-        "runs": 0,
-        "wicket": {"type": "caught", "batsman": "Virat Kohli", "bowler": "Mitchell Starc", "fielder": "Pat Cummins"},
-        "commentary": "OUT! Kohli skies one to mid-off where Cummins takes a good catch. A magnificent innings comes to an end at 112."
-      },
-      {
-        "over": 48.3,
-        "bowler": "Pat Cummins",
-        "batsman": "Hardik Pandya",
-        "runs": 4,
-        "commentary": "FOUR! Game over! Pandya smashes a full toss through the covers to win the match for India with 9 balls to spare!"
+  "matches": [
+    {
+      "matchDetails": {
+        "matchId": "MD001",
+        "homeTeam": "India",
+        "awayTeam": "Australia",
+        "venue": "M. Chinnaswamy Stadium, Bangalore",
+        "date": "2025-04-17",
+        "format": "ODI",
+        "tournament": "Border-Gavaskar Trophy",
+        "toss": {
+          "winner": "Australia",
+          "decision": "Bat"
+        },
+        "teams": {
+          "India": [
+            "Rohit Sharma (c)",
+            "Shubman Gill",
+            "Virat Kohli",
+            "Shreyas Iyer",
+            "KL Rahul",
+            "Rishabh Pant (wk)",
+            "Hardik Pandya",
+            "Ravindra Jadeja",
+            "Mohammed Shami",
+            "Jasprit Bumrah",
+            "Kuldeep Yadav"
+          ],
+          "Australia": [
+            "David Warner",
+            "Travis Head",
+            "Steven Smith",
+            "Marnus Labuschagne",
+            "Glenn Maxwell",
+            "Mitchell Marsh",
+            "Alex Carey (wk)",
+            "Pat Cummins (c)",
+            "Mitchell Starc",
+            "Nathan Lyon",
+            "Josh Hazlewood"
+          ]
+        },
+        "umpires": [
+          "Kumar Dharmasena",
+          "Richard Kettleborough",
+          "Michael Gough (TV)"
+        ],
+        "matchReferee": "Ranjan Madugalle",
+        "scores": {
+          "Australia": "275/8 (50 overs)",
+          "India": "276/5 (48.3 overs)"
+        },
+        "result": {
+          "winner": "India",
+          "winMargin": "5 wickets",
+          "manOfTheMatch": "Virat Kohli"
+        },
+        "statistics": {
+          "topScorers": {
+            "India": {"name": "Virat Kohli", "runs": 112, "balls": 107},
+            "Australia": {"name": "Steven Smith", "runs": 87, "balls": 95}
+          },
+          "topBowlers": {
+            "India": {"name": "Jasprit Bumrah", "wickets": 3, "economy": 4.8},
+            "Australia": {"name": "Mitchell Starc", "wickets": 2, "economy": 5.3}
+          },
+          "partnerships": [
+            {"team": "Australia", "wicket": "3rd", "runs": 88, "batsmen": ["Steven Smith", "Marnus Labuschagne"]},
+            {"team": "India", "wicket": "3rd", "runs": 125, "batsmen": ["Virat Kohli", "Shreyas Iyer"]}
+          ]
+        },
+        "commentary": [
+          {
+            "over": 1.1,
+            "bowler": "Jasprit Bumrah",
+            "batsman": "David Warner",
+            "runs": 0,
+            "commentary": "A good length delivery just outside off, Warner leaves it alone."
+          },
+          {
+            "over": 1.2,
+            "bowler": "Jasprit Bumrah",
+            "batsman": "David Warner",
+            "runs": 0,
+            "commentary": "Full and swinging away, Warner defends solidly."
+          },
+          {
+            "over": 1.3,
+            "bowler": "Jasprit Bumrah",
+            "batsman": "David Warner",
+            "runs": 4,
+            "commentary": "Short and wide, Warner cuts it powerfully through point for FOUR!"
+          },
+          {
+            "over": 1.4,
+            "bowler": "Jasprit Bumrah",
+            "batsman": "David Warner",
+            "runs": 0,
+            "commentary": "Good length and straight, Warner defends to mid-on."
+          },
+          {
+            "over": 1.5,
+            "bowler": "Jasprit Bumrah",
+            "batsman": "David Warner",
+            "runs": 0,
+            "wicket": {"type": "bowled", "batsman": "David Warner", "bowler": "Jasprit Bumrah"},
+            "commentary": "BOWLED! Bumrah with an absolute beauty! Pitches on middle and seams away to clip the top of off stump. Warner beaten all ends up!"
+          },
+          {
+            "over": 1.6,
+            "bowler": "Jasprit Bumrah",
+            "batsman": "Travis Head",
+            "runs": 0,
+            "commentary": "Full and straight, Head defends his first ball carefully."
+          },
+          {
+            "over": 30.1,
+            "bowler": "Kuldeep Yadav",
+            "batsman": "Steven Smith",
+            "runs": 1,
+            "commentary": "Flighted delivery on middle, Smith works it to long-on for a single."
+          },
+          {
+            "over": 30.2,
+            "bowler": "Kuldeep Yadav",
+            "batsman": "Glenn Maxwell",
+            "runs": 6,
+            "commentary": "MASSIVE SIX! Maxwell comes down the track and launches Kuldeep straight over long-on! The ball lands in the second tier!"
+          },
+          {
+            "over": 30.3,
+            "bowler": "Kuldeep Yadav",
+            "batsman": "Glenn Maxwell",
+            "runs": 4,
+            "commentary": "Swept hard and fine by Maxwell, races away to the boundary for FOUR."
+          },
+          {
+            "over": 30.4,
+            "bowler": "Kuldeep Yadav",
+            "batsman": "Glenn Maxwell",
+            "runs": 0,
+            "wicket": {"type": "stumped", "batsman": "Glenn Maxwell", "bowler": "Kuldeep Yadav", "fielder": "Rishabh Pant"},
+            "commentary": "STUMPED! Maxwell comes down the track again but misses a well-flighted googly. Pant whips off the bails in a flash!"
+          },
+          {
+            "over": 49.1,
+            "bowler": "Mitchell Starc",
+            "batsman": "Virat Kohli",
+            "runs": 2,
+            "commentary": "Full toss, Kohli drives it through the covers for a couple. Moves to 98."
+          },
+          {
+            "over": 49.2,
+            "bowler": "Mitchell Starc",
+            "batsman": "Virat Kohli",
+            "runs": 4,
+            "commentary": "FOUR! Short and wide, Kohli cuts it past point. That takes him to his century! The stadium erupts!"
+          },
+          {
+            "over": 49.3,
+            "bowler": "Mitchell Starc",
+            "batsman": "Virat Kohli",
+            "runs": 2,
+            "commentary": "Yorker length, dug out towards long-on for a couple."
+          },
+          {
+            "over": 49.4,
+            "bowler": "Mitchell Starc",
+            "batsman": "Virat Kohli",
+            "runs": 6,
+            "commentary": "SIX! What a shot! Kohli flicks a full delivery on leg stump over deep square leg for a maximum!"
+          },
+          {
+            "over": 49.5,
+            "bowler": "Mitchell Starc",
+            "batsman": "Virat Kohli",
+            "runs": 0,
+            "wicket": {"type": "caught", "batsman": "Virat Kohli", "bowler": "Mitchell Starc", "fielder": "Pat Cummins"},
+            "commentary": "OUT! Kohli skies one to mid-off where Cummins takes a good catch. A magnificent innings comes to an end at 112."
+          },
+          {
+            "over": 48.3,
+            "bowler": "Pat Cummins",
+            "batsman": "Hardik Pandya",
+            "runs": 4,
+            "commentary": "FOUR! Game over! Pandya smashes a full toss through the covers to win the match for India with 9 balls to spare!"
+          }
+        ],
+        "highlights": [
+          {
+            "type": "wicket",
+            "description": "David Warner bowled by Jasprit Bumrah",
+            "timestamp": "00:05:23",
+            "over": 1.5
+          },
+          {
+            "type": "boundary",
+            "description": "Steven Smith's elegant cover drive for four",
+            "timestamp": "00:42:17",
+            "over": 15.3
+          },
+          {
+            "type": "wicket",
+            "description": "Glenn Maxwell stumped by Rishabh Pant off Kuldeep Yadav",
+            "timestamp": "01:22:45",
+            "over": 30.4
+          },
+          {
+            "type": "milestone",
+            "description": "Virat Kohli reaches his 48th ODI century",
+            "timestamp": "02:35:12",
+            "over": 49.2
+          },
+          {
+            "type": "match_winning",
+            "description": "Hardik Pandya's boundary to win the match",
+            "timestamp": "02:46:38",
+            "over": 48.3
+          }
+        ]
       }
-    ],
-    "highlights": [
-      {
-        "type": "wicket",
-        "description": "David Warner bowled by Jasprit Bumrah",
-        "timestamp": "00:05:23",
-        "over": 1.5
-      },
-      {
-        "type": "boundary",
-        "description": "Steven Smith's elegant cover drive for four",
-        "timestamp": "00:42:17",
-        "over": 15.3
-      },
-      {
-        "type": "wicket",
-        "description": "Glenn Maxwell stumped by Rishabh Pant off Kuldeep Yadav",
-        "timestamp": "01:22:45",
-        "over": 30.4
-      },
-      {
-        "type": "milestone",
-        "description": "Virat Kohli reaches his 48th ODI century",
-        "timestamp": "02:35:12",
-        "over": 49.2
-      },
-      {
-        "type": "match_winning",
-        "description": "Hardik Pandya's boundary to win the match",
-        "timestamp": "02:46:38",
-        "over": 48.3
+    },
+    {
+      "matchDetails": {
+        "matchId": "MD002",
+        "homeTeam": "England",
+        "awayTeam": "South Africa",
+        "venue": "Lord's Cricket Ground, London",
+        "date": "2025-04-25",
+        "format": "T20I",
+        "tournament": "T20 Summer Series",
+        "toss": {
+          "winner": "England",
+          "decision": "Bowl"
+        },
+        "teams": {
+          "England": [
+            "Jos Buttler (c & wk)",
+            "Jason Roy",
+            "Dawid Malan",
+            "Jonny Bairstow",
+            "Moeen Ali",
+            "Liam Livingstone",
+            "Sam Curran",
+            "Chris Jordan",
+            "Adil Rashid",
+            "Jofra Archer",
+            "Mark Wood"
+          ],
+          "South Africa": [
+            "Quinton de Kock (wk)",
+            "Reeza Hendricks",
+            "Temba Bavuma (c)",
+            "Aiden Markram",
+            "David Miller",
+            "Heinrich Klaasen",
+            "Marco Jansen",
+            "Kagiso Rabada",
+            "Anrich Nortje",
+            "Tabraiz Shamsi",
+            "Lungi Ngidi"
+          ]
+        },
+        "umpires": [
+          "Aleem Dar",
+          "Chris Gaffaney",
+          "Joel Wilson (TV)"
+        ],
+        "matchReferee": "Jeff Crowe",
+        "scores": {
+          "South Africa": "198/6 (20 overs)",
+          "England": "199/4 (19.2 overs)"
+        },
+        "result": {
+          "winner": "England",
+          "winMargin": "6 wickets",
+          "manOfTheMatch": "Jos Buttler"
+        },
+        "statistics": {
+          "topScorers": {
+            "England": {"name": "Jos Buttler", "runs": 89, "balls": 56},
+            "South Africa": {"name": "Heinrich Klaasen", "runs": 64, "balls": 32}
+          },
+          "topBowlers": {
+            "England": {"name": "Sam Curran", "wickets": 3, "economy": 8.75},
+            "South Africa": {"name": "Kagiso Rabada", "wickets": 2, "economy": 9.25}
+          },
+          "partnerships": [
+            {"team": "South Africa", "wicket": "5th", "runs": 76, "batsmen": ["Heinrich Klaasen", "David Miller"]},
+            {"team": "England", "wicket": "2nd", "runs": 102, "batsmen": ["Jos Buttler", "Dawid Malan"]}
+          ]
+        },
+        "commentary": [
+          {
+            "over": 1.1,
+            "bowler": "Sam Curran",
+            "batsman": "Quinton de Kock",
+            "runs": 4,
+            "commentary": "FOUR! De Kock gets off the mark with a beautiful drive through covers."
+          },
+          {
+            "over": 1.2,
+            "bowler": "Sam Curran",
+            "batsman": "Quinton de Kock",
+            "runs": 0,
+            "commentary": "Good length on off stump, de Kock defends."
+          },
+          {
+            "over": 1.3,
+            "bowler": "Sam Curran",
+            "batsman": "Quinton de Kock",
+            "runs": 6,
+            "commentary": "SIX! De Kock goes big! Smashes it over long-on for a maximum!"
+          },
+          {
+            "over": 1.4,
+            "bowler": "Sam Curran",
+            "batsman": "Quinton de Kock",
+            "runs": 0,
+            "wicket": {"type": "caught", "batsman": "Quinton de Kock", "bowler": "Sam Curran", "fielder": "Jofra Archer"},
+            "commentary": "OUT! De Kock tries to go big again but gets a top edge. Archer takes a good running catch at mid-off."
+          },
+          {
+            "over": 1.5,
+            "bowler": "Sam Curran",
+            "batsman": "Temba Bavuma",
+            "runs": 1,
+            "commentary": "Bavuma gets off the mark with a single to cover."
+          },
+          {
+            "over": 1.6,
+            "bowler": "Sam Curran",
+            "batsman": "Reeza Hendricks",
+            "runs": 0,
+            "commentary": "Dot ball to end the over. Good comeback by Curran after being hit for 10 in the first three balls."
+          },
+          {
+            "over": 10.1,
+            "bowler": "Adil Rashid",
+            "batsman": "Heinrich Klaasen",
+            "runs": 4,
+            "commentary": "FOUR! Klaasen sweeps Rashid fine for a boundary."
+          },
+          {
+            "over": 10.2,
+            "bowler": "Adil Rashid",
+            "batsman": "Heinrich Klaasen",
+            "runs": 6,
+            "commentary": "SIX! What a shot! Klaasen launches Rashid over long-on for a massive six!"
+          },
+          {
+            "over": 10.3,
+            "bowler": "Adil Rashid",
+            "batsman": "Heinrich Klaasen",
+            "runs": 2,
+            "commentary": "Driven through the covers for a couple."
+          },
+          {
+            "over": 10.4,
+            "bowler": "Adil Rashid",
+            "batsman": "Heinrich Klaasen",
+            "runs": 4,
+            "commentary": "FOUR! Klaasen is on fire! Reverse sweeps for another boundary."
+          },
+          {
+            "over": 19.1,
+            "bowler": "Kagiso Rabada",
+            "batsman": "Jos Buttler",
+            "runs": 2,
+            "commentary": "Buttler works it away to deep square leg for two runs."
+          },
+          {
+            "over": 19.2,
+            "bowler": "Kagiso Rabada",
+            "batsman": "Jos Buttler",
+            "runs": 6,
+            "commentary": "SIX! Buttler launches Rabada over midwicket! That's his 7th six of the innings!"
+          },
+          {
+            "over": 19.3,
+            "bowler": "Kagiso Rabada",
+            "batsman": "Jos Buttler",
+            "runs": 4,
+            "commentary": "FOUR! Buttler scoops it over fine leg! Incredible batting!"
+          },
+          {
+            "over": 19.4,
+            "bowler": "Kagiso Rabada",
+            "batsman": "Jos Buttler",
+            "runs": 0,
+            "wicket": {"type": "caught", "batsman": "Jos Buttler", "bowler": "Kagiso Rabada", "fielder": "Anrich Nortje"},
+            "commentary": "OUT! Buttler finally falls, caught at long-off. A magnificent innings comes to an end at 89."
+          },
+          {
+            "over": 19.5,
+            "bowler": "Kagiso Rabada",
+            "batsman": "Moeen Ali",
+            "runs": 1,
+            "commentary": "Moeen takes a single, bringing Livingstone on strike."
+          },
+          {
+            "over": 19.6,
+            "bowler": "Kagiso Rabada",
+            "batsman": "Liam Livingstone",
+            "runs": 6,
+            "commentary": "SIX! Livingstone finishes the over with a massive six over deep midwicket!"
+          }
+        ],
+        "highlights": [
+          {
+            "type": "boundary",
+            "description": "De Kock's six over long-on",
+            "timestamp": "00:03:45",
+            "over": 1.3
+          },
+          {
+            "type": "wicket",
+            "description": "Quinton de Kock caught by Archer off Curran",
+            "timestamp": "00:04:21",
+            "over": 1.4
+          },
+          {
+            "type": "batting",
+            "description": "Heinrich Klaasen's four consecutive boundaries off Rashid",
+            "timestamp": "00:58:14",
+            "over": "10.1-10.4"
+          },
+          {
+            "type": "batting",
+            "description": "Jos Buttler's consecutive boundaries off Rabada",
+            "timestamp": "02:15:32",
+            "over": "19.2-19.3"
+          },
+          {
+            "type": "match_winning",
+            "description": "Liam Livingstone's six to seal the victory",
+            "timestamp": "02:26:18",
+            "over": 19.6
+          }
+        ]
       }
-    ]
-  },
+    }
+  ],
   "series": [
     {
       "seriesId": "SER001",
