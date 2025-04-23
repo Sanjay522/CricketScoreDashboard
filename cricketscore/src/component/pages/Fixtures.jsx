@@ -2,91 +2,95 @@ import React, { useEffect, useState } from "react";
 import { useData } from "../../Contex";
 
 const Fixtures = () => {
-const {data} = useData()
-  const data1 = data.fixtures || []; 
-  console.log(data1)
+  const { data } = useData();
+  const fixtures = data?.fixtures || [];
+
   const [activeType, setActiveType] = useState("All");
   const [filter, setFilter] = useState([]);
 
-  const teamType = ["All", "International", "Domestic", "League", "Women"];
+  const teamTypes = ["All", "International", "Domestic", "League", "Women"];
 
   useEffect(() => {
-      if (data1.length > 0) {
-        filterTeams(activeType);
-      }
-    }, [data1, activeType]);
+    if (fixtures.length > 0) {
+      filterFixtures(activeType);
+    }
+  }, [fixtures, activeType]);
 
-
-  const filterTeams = (type) => {
+  const filterFixtures = (type) => {
     setActiveType(type);
     if (type === "All") {
-      setFilter(data1);
+      setFilter(fixtures);
     } else {
-      const filtered = data1.filter((team) => team.type === type);
+      const filtered = fixtures.filter(fix => fix.type === type);
       setFilter(filtered);
-      if (type === "") {
-        return <p>NO data</p>;
-      }
     }
   };
 
   return (
-    <div>
-      <div>
-        <h1 className="text-heading-lg text-primary mt-5">Cricket Schedule</h1>
-      </div>
-      <div>
-        {teamType.map((type, index) => (
+    <div className="p-4">
+      <h1 className="text-heading-lg text-primary mt-5 mb-6 text-center">
+        Cricket Schedule
+      </h1>
+
+      {/* Filter Buttons */}
+      <div className="flex flex-wrap justify-center gap-3 mb-10">
+        {teamTypes.map((type, index) => (
           <button
-            onClick={() => filterTeams(type)}
-            className={`text-heading-md text-foreground bg-[#28a745] border-none hover:bg-[#27442e] active:bg-[#457951] rounded-2xl p-2  cursor-pointer transition duration-300 ${index !==0?"ml-2":""} 
-              ${activeType === type ? "bg-[#27442e]" : ""}`}
             key={index}
+            onClick={() => filterFixtures(type)}
+            className={`px-4 py-2 rounded-full transition duration-300 text-heading-md text-white ${
+              activeType === type
+                ? "bg-[#27442e]"
+                : "bg-[#28a745] hover:bg-[#1f7a32]"
+            }`}
           >
             {type}
           </button>
         ))}
       </div>
-      <div className="text-white">
-  {filter.length > 0 ? (
-    filter.map(
-      ({
-        index,
-        awayTeanm,
-        date,
-        format,
-        homeTeam,
-        time,
-        tournament,
-        venue,
-      }) => (
-        <div
-          key={index}
-          className="border border-green-500 rounded-2xl mt-10 p-5"
-        >
-          <h1 className=" bg-primary text-heading-md pl-10">{date}</h1>
-          <div className="bg-white text-black p-5 pl-10 grid grid-cols-3 gap-10">
-            <div>
-              <p className="text-heading-md">{tournament}</p>
-            </div>
-            <div>
-              <p className="text-heading-md">
-                {homeTeam} VS {awayTeanm}
-              </p>
-              <p>{venue}</p>
-              <p>Format: {format}</p>
-            </div>
-            <p className="text-heading-md">{time}</p>
+
+      {/* Fixtures Cards */}
+      <div className="text-white space-y-8">
+        {filter.length > 0 ? (
+          filter.map((fixture, idx) => {
+            const {
+              awayTeam,
+              date,
+              format,
+              homeTeam,
+              time,
+              tournament,
+              venue,
+            } = fixture;
+
+            return (
+              <div
+                key={idx}
+                className="border border-green-500 rounded-2xl overflow-hidden shadow-md"
+              >
+                <h2 className="bg-primary text-heading-md p-4">{date}</h2>
+                <div className="bg-white text-black p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div>
+                    <p className="text-heading-md font-semibold">{tournament}</p>
+                  </div>
+                  <div>
+                    <p className="text-heading-md">
+                      {homeTeam} VS {awayTeam}
+                    </p>
+                    <p className="text-sm text-gray-600">{venue}</p>
+                    <p className="text-sm">Format: {format}</p>
+                  </div>
+                  <div className="text-heading-md text-right md:text-left">{time}</div>
+                </div>
+              </div>
+            );
+          })
+        ) : (
+          <div className="text-center text-xl mt-10 text-gray-400">
+            Coming Soon!
           </div>
-        </div>
-      )
-    )
-  ) : (
-    <div className="text-center text-xl mt-10 text-gray-400">
-      Coming Soon!
-    </div>
-  )}
-</div>
+        )}
+      </div>
     </div>
   );
 };

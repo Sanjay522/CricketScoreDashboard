@@ -1,44 +1,47 @@
-import React, { useState,useEffect } from 'react'
-import { useData } from '../../Contex'
+import React from "react";
+import { useData } from "../../Contex";
 
 const PointsTable = () => {
-  const {data} =useData()
-  const data1 = data?.pointsTable || []
+  const { data } = useData();
+  const data1 = data?.pointsTable || [];
 
-// const [data,setData]= useState([])
-const head =  ["Teams","matchesPlayed","wins","losses","noResult","netRunrate","points"]
+  const head = ["Teams", "Matches", "Wins", "Losses", "No Result", "NRR", "Points"];
 
- 
   return (
-    <div>
-      <h1 className='text-heading-xl text-primary'>Points Table</h1>
-        <table className='w-[100%] text-white border border-white my-10 text-heading-md'>
+    <div className="text-white px-4 py-8 max-w-6xl mx-auto">
+      <h2 className="text-3xl font-semibold text-center mb-6">Points Table</h2>
+
+      <div className="overflow-x-auto">
+        <table className="w-full min-w-[600px] border-collapse text-sm md:text-base">
           <thead>
-          <tr>
-          {head.map((heads)=>(
-              <td className='p-5 text-center bg-primary border '>{heads}</td>
-           
-          ))}
-           </tr>
+            <tr className="bg-green-600 text-black">
+              {head.map((heading, index) => (
+                <th key={index} className="p-3 border border-white text-center">
+                  {heading}
+                </th>
+              ))}
+            </tr>
           </thead>
           <tbody>
-            {data1.map(({index,losses,matchesPlayed,netRunRate,noResult,points,teamName,wins})=>(
-              <tr className='text-center bg-secondary border border-white'>
-                <td className='p-3 border '>{teamName}</td>
-                <td className='border'>{matchesPlayed}</td>
-                <td className='border'>{wins}</td>
-                <td className='border'>{losses}</td>
-                <td className='border'>{noResult}</td>
-                <td className='border'>{netRunRate}</td>
-                <td className='border'>{points}</td>
-
+            {data1.map((team, index) => (
+              <tr
+                key={index}
+                className="text-center border border-white even:bg-green-100 odd:bg-green-200 text-black"
+              >
+                <td className="p-3 font-semibold">{team.teamName}</td>
+                <td className="p-3">{team.matchesPlayed}</td>
+                <td className="p-3">{team.wins}</td>
+                <td className="p-3">{team.losses}</td>
+                <td className="p-3">{team.noResult}</td>
+                <td className="p-3">{parseFloat(team.netRunRate).toFixed(2)}</td>
+                <td className="p-3 font-bold">{team.points}</td>
               </tr>
             ))}
           </tbody>
         </table>
-    
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default PointsTable
+export default PointsTable;

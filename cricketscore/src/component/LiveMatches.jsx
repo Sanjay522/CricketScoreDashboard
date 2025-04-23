@@ -10,29 +10,28 @@ const LiveMatches = () => {
   }
 
   return (
-    <section className="text-white">
-      <h1 className="text-secondary text-heading-lg mt-5">Live Matches</h1>
+    <section className="text-white px-4 py-6">
+      <h1 className="text-secondary text-heading-lg mb-6">Live Matches</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {matches.map(({ matchDetails }) => {
           const { matchId, homeTeam, awayTeam, scores } = matchDetails;
           const awayScore = scores?.[awayTeam] || "N/A";
 
-
           return (
             <div
               key={matchId}
-              className="text-heading-md text-primary p-4 rounded-2xl shadow-md border border-gray-700"
+              className="bg-gray-800 p-4 rounded-2xl shadow-md border border-gray-700 transition hover:scale-105 duration-300"
             >
               <div className="flex justify-between items-center">
                 <h2 className="text-xl font-semibold">
-                  {homeTeam} VS {awayTeam}
+                  {homeTeam} vs {awayTeam}
                 </h2>
                 <span className="text-green-400 text-sm">Live</span>
               </div>
 
-              <div className="mt-4 text-heading-sm text-foreground">
-                {awayTeam}:{awayScore}
+              <div className="mt-4 text-heading-sm">
+                {awayTeam}: {awayScore}
               </div>
 
               <Link to={`/match/${matchId}`}>

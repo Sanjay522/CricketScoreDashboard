@@ -1,50 +1,56 @@
 import React from 'react';
 
 const Info = ({ match }) => {
-  if (!match) return <p>Loading match data...</p>;
-
-  const venueDetails = ["Stadium", "City", "Capacity", "Ends", "Hosts To"];
-  const broadcast = ["Streaming", "TV"];
+  if (!match) return <p className="text-white text-center mt-6">Loading match data...</p>;
 
   return (
-    <div>
-      <h1 className=" font-bold bg-secondary text-heading-lg">INFO</h1>
+    <div className="text-white px-4 py-6 max-w-5xl mx-auto">
+      <h1 className="font-bold text-2xl md:text-3xl bg-green-700 p-3 text-center rounded-lg mb-6">
+        MATCH INFO
+      </h1>
 
-      <div className=" bg-white text-black text-heading-md">
-        <div  className='grid grid-cols-2 gap-2'>
-        <p className="font-bold">Match:</p>
-        <p className='font-semibold'>{match.awayTeam} VS {match.homeTeam}</p>
+      <div className="bg-white text-black rounded-lg p-5 shadow-lg">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-base md:text-lg">
+          <div className="font-bold">Match:</div>
+          <div className="font-semibold">{match.awayTeam} VS {match.homeTeam}</div>
 
-        <p className="font-bold">Series:</p>
-        <p className='font-semibold'>{match.tournament || "N/A"}</p>
+          <div className="font-bold">Series:</div>
+          <div className="font-semibold">{match.tournament || "N/A"}</div>
 
-        <p className="font-bold">Date:</p>
-        <p className='font-semibold'>{match.date || "N/A"}</p>
+          <div className="font-bold">Date:</div>
+          <div className="font-semibold">{match.date || "N/A"}</div>
 
-        <p className="font-bold">Time:</p>
-        <p className='font-semibold'>NA</p>
+          <div className="font-bold">Time:</div>
+          <div className="font-semibold">N/A</div>
 
-        <p className="font-bold">Toss:</p>
-        <p className='font-semibold'>{match?.toss?.winner} chose to {match?.toss?.decision}</p>
+          <div className="font-bold">Toss:</div>
+          <div className="font-semibold">
+            {match?.toss?.winner ? `${match.toss.winner} chose to ${match.toss.decision}` : "N/A"}
+          </div>
 
-        <p className="font-bold">Venue:</p>
-        <p className='font-semibold'>{match.venue || "N/A"}</p>
+          <div className="font-bold">Venue:</div>
+          <div className="font-semibold">{match.venue || "N/A"}</div>
 
-        <p className="font-bold">Umpires:</p>
-        <p className='font-semibold'>{match?.umpires?.[0] || "N/A"}, {match?.umpires?.[1] || "N/A"}</p>
+          <div className="font-bold">Umpires:</div>
+          <div className="font-semibold">
+            {(match?.umpires?.[0] || "N/A")}, {(match?.umpires?.[1] || "N/A")}
+          </div>
 
-        <p className="font-bold">Third Umpire:</p>
-        <p className='font-semibold'>{match?.umpires?.[2] || "N/A"}</p>
+          <div className="font-bold">Third Umpire:</div>
+          <div className="font-semibold">{match?.umpires?.[2] || "N/A"}</div>
 
-        <p className="font-bold">Referee:</p>
-        <p className='font-semibold'>{match.matchReferee || "N/A"}</p>
+          <div className="font-bold">Referee:</div>
+          <div className="font-semibold">{match.matchReferee || "N/A"}</div>
         </div>
-        <h2 className="font-bold bg-secondary text-heading-lg text-white">VENUE GUIDE</h2>
-        <div>
+
+        {/* VENUE GUIDE - Add data if available */}
+        <div className="mt-8">
+          <h2 className="font-bold text-xl md:text-2xl bg-green-700 p-2 text-white rounded-md mb-4">
+            VENUE GUIDE
+          </h2>
+          <p className="text-gray-600 italic">Venue details coming soon...</p>
         </div>
       </div>
-
-    
     </div>
   );
 };

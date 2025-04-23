@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useData } from "../../Contex";
+
 import Info from "../Matchdetail/Info";
 import Live from "../Matchdetail/Live";
 import ScoreCard from "../Matchdetail/ScoreCard";
@@ -17,7 +18,7 @@ const MatchDetail = () => {
   );
 
   if (!wrapper) {
-    return <p className="text-white text-center mt-10">Match not found.</p>;
+    return <p className="text-white text-center mt-10 text-lg">Match not found.</p>;
   }
 
   const match = wrapper.matchDetails;
@@ -39,14 +40,17 @@ const MatchDetail = () => {
   };
 
   return (
-    <div className="text-white p-4 border border-gray-600 rounded-xl mt-6">
-      <ul className="flex justify-around mb-4 bg-gray-800 rounded-lg overflow-hidden">
+    <div className="text-white px-4 py-6 max-w-6xl mx-auto mt-8 border border-gray-600 rounded-2xl shadow-md bg-[#1f1f1f]">
+      {/* Tabs Navigation */}
+      <ul className="flex flex-wrap justify-center md:justify-around mb-6 gap-3">
         {detailNav.map((nav, index) => (
           <li
             key={index}
             onClick={() => setActiveTab(nav)}
-            className={`cursor-pointer w-full text-center py-2 ${
-              activeTab === nav ? "bg-green-600" : "bg-gray-700"
+            className={`cursor-pointer px-6 py-2 rounded-full text-heading-md font-medium transition duration-300 ${
+              activeTab === nav
+                ? "bg-green-600 text-white"
+                : "bg-gray-700 hover:bg-gray-600"
             }`}
           >
             {nav}
@@ -54,7 +58,8 @@ const MatchDetail = () => {
         ))}
       </ul>
 
-      <div>{renderComponent()}</div>
+      {/* Tab Content */}
+      <div className="mt-4">{renderComponent()}</div>
     </div>
   );
 };

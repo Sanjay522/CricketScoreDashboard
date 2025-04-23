@@ -2,56 +2,65 @@ import React, { useState, useEffect } from 'react';
 import { useData } from '../../Contex';
 
 const CricketTeams = () => {
-  const {data} = useData()
-  const data1 = data.teams || []; 
-  console.log(data1)
+  const { data } = useData();
+  const teams = data?.teams || [];
 
   const teamType = ["All", "International", "Domestic", "League", "Women"];
   const [filter, setFilter] = useState([]);
   const [activeType, setActiveType] = useState("All");
 
   useEffect(() => {
-    if (data1.length > 0) {
+    if (teams.length > 0) {
       filterTeams(activeType);
     }
-  }, [data1, activeType]);
- 
+  }, [teams, activeType]);
+
   const filterTeams = (type) => {
     setActiveType(type);
     if (type === "All") {
-      setFilter(data1);
+      setFilter(teams);
     } else {
-      const filtered = data1.filter(team => team.type === type);
+      const filtered = teams.filter(team => team.type === type);
       setFilter(filtered);
     }
   };
 
-  // console.log(data)
-
   return (
-    <div>
-      <h1 className='text-heading-lg text-primary mt-5'>Cricket Teams</h1>
+    <div className="p-4">
+      <h1 className="text-heading-lg text-primary mt-5 mb-4 text-center">Cricket Teams</h1>
 
-      <div className='flex gap-5'>
+      {/* Filter Buttons */}
+      <div className="flex flex-wrap justify-center gap-3 mb-8">
         {teamType.map((type, index) => (
           <button
-            onClick={() => filterTeams(type)}
-            className={`text-heading-md text-foreground bg-[#28a745] border-none hover:bg-[#27442e] active:bg-[#457951] rounded-2xl p-2 mt-5 cursor-pointer transition duration-300 
-              ${activeType === type ? 'bg-[#27442e]' : ''}`}
             key={index}
+            onClick={() => filterTeams(type)}
+            className={`text-heading-md px-4 py-2 rounded-full transition duration-300 ${
+              activeType === type
+                ? 'bg-[#27442e] text-white'
+                : 'bg-[#28a745] hover:bg-[#1f7a32] text-white'
+            }`}
           >
             {type}
           </button>
         ))}
       </div>
 
-      <div className='mt-6'>
-      {filter.map(({ index, name, flagUrl }) => (
-  <div className="flex items-center gap-4 m-5" key={index}>
-    <img src={flagUrl} alt={name} className="h-20 w-30 object-cover" />
-    <p className="text-heading-lg text-foreground">{name}</p>
-  </div>
-))}
+      {/* Teams List */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        {filter.map(({ name, flagUrl }, index) => (
+          <div
+            key={index}
+            className="flex items-center gap-4 bg-gray-800 p-4 rounded-xl shadow-md hover:scale-105 transition-transform duration-200"
+          >
+            <img
+              src={flagUrl}
+              alt={name}
+              className="h-16 w-24 object-cover rounded-lg"
+            />
+            <p className="text-heading-md text-foreground">{name}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
