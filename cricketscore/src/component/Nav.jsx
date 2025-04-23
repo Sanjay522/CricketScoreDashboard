@@ -21,7 +21,6 @@ const Nav = () => {
           <h1 className="text-primary text-heading-xl">Crickscore</h1>
         </Link>
 
-        {/* Hamburger Menu */}
         <button
           className="text-white md:hidden"
           onClick={() => setIsOpen(!isOpen)}
@@ -29,21 +28,19 @@ const Nav = () => {
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
 
-        {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
           {navList.map(({ name, path }, index) => (
-            <li key={index} className="text-foreground text-xl hover:text-primary">
-              <Link to={path}>{name}</Link>
+            <li key={index} className="text-white text-lg">
+              <Link to={path} className="hover:text-green-600 focus:text-green-600">{name}</Link>
             </li>
           ))}
         </ul>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <ul className="flex flex-col md:hidden mt-4 space-y-3 bg-gray-800 rounded-lg p-4">
           {navList.map(({ name, path }, index) => (
-            <li key={index} className="text-foreground text-lg hover:text-primary">
+            <li key={index} className="text-foreground text-lg hover:text-primary ">
               <Link to={path} onClick={() => setIsOpen(false)}>
                 {name}
               </Link>
