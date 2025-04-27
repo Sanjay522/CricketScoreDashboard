@@ -1,27 +1,15 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState } from "react";
+import playerData from "./server/playerstats.json";
 
 const DataContext = createContext();
 
 export const useData = () => useContext(DataContext);
 
 export const DataProvider = ({ children }) => {
-  const [data, setData] = useState([]);
-
-
-  useEffect(() => {
-    fetch("http://localhost:5001/playerstats")
-      .then((res) => res.json())
-      .then((fetchedData) => {
-        setData(fetchedData);
-   
-      })
-      .catch((err) => {
-        console.error("Error fetching data:", err);
-      });
-  }, []);
+  const [data, setData] = useState(playerData); // Initialize state with the seeded data
 
   return (
-    <DataContext.Provider value={{ data,setData }}>
+    <DataContext.Provider value={{ data, setData }}>
       {children}
     </DataContext.Provider>
   );
